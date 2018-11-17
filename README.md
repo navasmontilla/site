@@ -22,15 +22,13 @@ Nowadays, the current trend is to design accurate and efficient schemes by means
   <figcaption>Figure 2. Logarithmic plot of the numerical error versus the number of cells (left) and CPU time (right) for the resolution of the acoustic equations using the WENO-ADER scheme.</figcaption>
 </figure>
 
-On the other hand, the presence of source terms in the equations is an issue which we must pay attention to. Source terms model the presence of extra physical effects not represented by the pure conservative terms in the equations and may often governs the dynamics of the problem. The search of a suitable treatment of the source term in the numerical scheme is not a trivial task, but it is of utmost importance in order to preserve steady states of relevance.
+On the other hand, the presence of source terms in the equations is an issue which we must pay attention to. Source terms model the presence of extra physical effects not represented by the pure conservative terms in the equations and may often govern the dynamics of the problem. The search of a suitable treatment of the source term in the numerical scheme is not a trivial task, but it is of utmost importance in order to preserve steady states of relevance.
 
 ## Research project
 
 ### Generation of arbitrary order augmented schemes for hyperbolic problems with source terms
 
-In the framework of finite volumes, the introduction of the ENO and WENO reconstruction techniques supposed a major step when seeking arbitrary order of accuracy in space. On the other hand, the preservation of high order in time was generally done by means of a Runge-Kutta time integrators, which required to take multiple temporal sub-steps and sometimes proved to be inefficient due to Butcher’s barrier. This issue was addressed when using the ADER approach, which provides a fully discrete scheme of arbitrary order in space and time. 
-
-Here we aim at the generation
+We aim at the generation of fully-discrete arbitrary order numerical schemes, based on the WENO spatial reconstruction and ADER time-stepping technique, with application to hyperbolic problems with source terms. The proposed schemes are based on augmented Riemann solvers that include the contribution of source terms in the definition of the Riemann problem, allowing the presevation of equilibrium states with machine precision.
 
 #### The WENO AR/ARL-ADER method in 1D: well-balanced and energy-balanced simulation of the SWE with bed variation
 
