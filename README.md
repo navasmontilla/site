@@ -10,16 +10,16 @@ Hyperbolic partial differential equations arise in a broad variety of fields whe
 
 ### State-of-the-art challenges
 
-Nowadays, the current trend is to design accurate and efficient schemes by means of a combination of: (a) very high order numerical schemes (e.g. WENO, ADER and DG schemes), which require a shorter computational time and memory than a lower order scheme to achieve the same accuracy, (b) adaptive mesh refinement techniques and other sophisticated meshing algorithms and (c) efficient parallel implementations for high performance computing (OpenMP, MPI, CUDA and OpenACC, among others).
+Nowadays, the current trend is to design accurate and efficient schemes by means of a combination of: (a) very high order numerical schemes (e.g. WENO, ADER and DG schemes), which require a shorter computational time and memory than a lower order scheme to achieve the same accuracy (see Figures 1 and 2), (b) adaptive mesh refinement techniques and other sophisticated meshing algorithms and (c) efficient parallel implementations for high performance computing (OpenMP, MPI, CUDA and OpenACC, among others).
 
 <figure style="text-align: center;">
   <img src="github_site/examples1.png" alt="my alt text"/>
-  <figcaption>Figure 1. This is my caption text.</figcaption>
+  <figcaption>Figure 1. Numerical solution of the Doswell frontogenesis for the linear advection equation using a 1-st order and 7-th order WENO-ADER scheme.</figcaption>
 </figure>
 
 <figure style="text-align: center;">
   <img src="github_site/examples2.png" alt="my alt text"/>
-  <figcaption>Figure 2. This is my caption text.</figcaption>
+  <figcaption>Figure 2. Logarithmic plot of the numerical error versus the number of cells (left) and CPU time (right) for the resolution of the acoustic equations using the WENO-ADER scheme.</figcaption>
 </figure>
 
 ## Research project
