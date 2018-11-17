@@ -14,7 +14,12 @@ Nowadays, the current trend is to design accurate and efficient schemes by means
 
 <figure style="text-align: center;">
   <img src="github_site/examples1.png" alt="my alt text"/>
-  <figcaption>This is my caption text.</figcaption>
+  <figcaption>Figure 1. This is my caption text.</figcaption>
+</figure>
+
+<figure style="text-align: center;">
+  <img src="github_site/examples2.png" alt="my alt text"/>
+  <figcaption>Figure 2. This is my caption text.</figcaption>
 </figure>
 
 ## Research project
