@@ -25,7 +25,6 @@ Syntax highlighted code block
 1. Numbered
 2. List
 
-* [Hyperlink](test.md)
 
 **Bold** and _Italic_ and `Code` text
 
@@ -33,6 +32,8 @@ Syntax highlighted code block
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
+* [Hyperlink](test.md)
 
 ### Jekyll Themes
 
