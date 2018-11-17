@@ -1,12 +1,16 @@
 
 
-## Target problems
+## Numerical simulation
 
 You can use the [editor on GitHub](https://github.com/navasmontilla/site/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
+
+Here it is an example of how to add a link to a video:
+
+[![Simulation video](https://img.youtube.com/vi/M7ep81gngow/0.jpg)](https://www.youtube.com/watch?v=M7ep81gngow "video name")
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
