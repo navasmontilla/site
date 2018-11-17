@@ -14,6 +14,16 @@ Nowadays, the current trend is to design accurate and efficient schemes by means
 
 ## Research project
 
+### Generation of arbitrary order augmented schemes for hyperbolic problems with source terms
+
+#### The WENO AR/ARL-ADER method in 1D: application to the SWE with bed variation
+
+#### The WENO ARL-ADER method in 2D: application to the SWE with bed variation, friction and Coriolis
+
+#### URANS simulation of shallow flows using the WENO ARL-ADER method for the SWE
+
+### Generation of arbitrary order augmented schemes for hyperbolic problems with source terms
+
 ### Markdown
 
 Here it is an example of how to add a link to a video:
