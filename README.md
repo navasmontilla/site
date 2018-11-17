@@ -16,9 +16,9 @@ Nowadays, the current trend is to design accurate and efficient schemes by means
 
 ### Generation of arbitrary order augmented schemes for hyperbolic problems with source terms
 
-#### The WENO AR/ARL-ADER method in 1D: application to the SWE with bed variation
+#### The WENO AR/ARL-ADER method in 1D: well-balanced and energy-balanced simulation of the SWE with bed variation
 
-#### The WENO ARL-ADER method in 2D: application to the SWE with bed variation, friction and Coriolis
+#### The WENO ARL-ADER method in 2D: well-balanced simulation of the SWE with bed variation, friction and Coriolis
 
 #### URANS simulation of shallow flows using the WENO ARL-ADER method for the SWE
 
