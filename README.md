@@ -10,7 +10,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 Here it is an example of how to add a link to a video:
 
-[![Simulation video](https://img.youtube.com/vi/M7ep81gngow/0.jpg)](https://www.youtube.com/watch?v=M7ep81gngow "video name")
+[![Simulation video](https://img.youtube.com/vi/M7ep81gngow/1.jpg)](https://www.youtube.com/watch?v=M7ep81gngow "video name")
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
