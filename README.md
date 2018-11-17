@@ -12,7 +12,7 @@ Hyperbolic partial differential equations arise in a broad variety of fields whe
 
 Nowadays, the current trend is to design accurate and efficient schemes by means of a combination of: (a) very high order numerical schemes (e.g. WENO, ADER and DG schemes), which require a shorter computational time and memory than a lower order scheme to achieve the same accuracy, (b) adaptive mesh refinement techniques and other sophisticated meshing algorithms and (c) efficient parallel implementations for high performance computing (OpenMP, MPI, CUDA and OpenACC, among others).
 
-<figure>
+<figure style="text-align: center;">
   <img src="github_site/examples1.png" alt="my alt text"/>
   <figcaption>This is my caption text.</figcaption>
 </figure>
