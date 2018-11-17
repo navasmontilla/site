@@ -1,3 +1,10 @@
 theme: jekyll-theme-cayman
 description: [Adrián Navas Montilla]
 title: [Development of efficient numerical schemes for environmental flows]
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - test.md
