@@ -53,8 +53,8 @@ The first stage of the project was the development of the mathematical framework
 - For steady cases, they provide the exact solution with independence of the grid thanks to the energy-balanced property.
 
 <figure style="text-align: center;">
-  <img src="github_site/rps1.png" width="80%" alt="my alt text"/>
-  <figcaption>Figure 4. Relevant equilibrium states for the SWE.</figcaption>
+  <img src="github_site/rps1.png" width="85%" alt="my alt text"/>
+  <figcaption>Figure 4. Resolution of RPs including strong bed variations.</figcaption>
 </figure>
 
 Detais of the methods and more results can be found in [Navas-Montilla, 2015](https://www.sciencedirect.com/science/article/pii/S0021999115001217) and [Navas-Montilla, 2016](https://www.sciencedirect.com/science/article/pii/S0021999116301024).
