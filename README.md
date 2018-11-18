@@ -26,7 +26,7 @@ On the other hand, the presence of source terms in the equations is an issue whi
 
 ## Research project
 
-The work herein presented has been developed at the [Computational Hydraulics Group](http://ghc.unizar.es) at [Univerisity of Zaragoza](https://www.unizar.es/). Computational resources have been provided by [LIFTEC-CSIC](http://www.liftec.unizar-csic.es/es/). The validation of the computational tools have been done in colaboration of the [LCH-EPFL](https://lch.epfl.ch/). 
+The work herein presented has been developed at the [Computational Hydraulics Group](http://ghc.unizar.es) at [Univerisity of Zaragoza](https://www.unizar.es/). Computational resources have been provided by [LIFTEC-CSIC](http://www.liftec.unizar-csic.es/es/). The validation of the computational tools has been done in colaboration with the [LCH-EPFL](https://lch.epfl.ch/). 
 
 ### Generation of arbitrary order augmented schemes for hyperbolic problems with source terms
 
