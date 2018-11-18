@@ -61,17 +61,11 @@ Detais of the methods and more results can be found in [Navas-Montilla, 2015](ht
 
 #### The WENO ARL-ADER method in 2D: well-balanced simulation of the SWE with bed variation, friction and Coriolis
 
-[![Simulation video](https://img.youtube.com/vi/3SAfCJ6xGqY/2.jpg)](https://www.youtube.com/watch?v=3SAfCJ6xGqY "play video")
-
-[![Simulation video](https://img.youtube.com/vi/-Dye0LG8-Ds/2.jpg)](https://www.youtube.com/watch?v=-Dye0LG8-Ds "play video")
-
-[![Simulation video](https://img.youtube.com/vi/M7ep81gngow/2.jpg)](https://www.youtube.com/watch?v=M7ep81gngow "play video")
+[![Simulation video](https://img.youtube.com/vi/3SAfCJ6xGqY/2.jpg)](https://www.youtube.com/watch?v=3SAfCJ6xGqY "play video") [![Simulation video](https://img.youtube.com/vi/-Dye0LG8-Ds/2.jpg)](https://www.youtube.com/watch?v=-Dye0LG8-Ds "play video") [![Simulation video](https://img.youtube.com/vi/M7ep81gngow/2.jpg)](https://www.youtube.com/watch?v=M7ep81gngow "play video")
 
 #### URANS simulation of shallow flows using the WENO ARL-ADER method for the SWE
 
-[![Simulation video](https://img.youtube.com/vi/J3epKVZyX-o/2.jpg)](https://www.youtube.com/watch?v=J3epKVZyX-o "play video")
-
-[![Simulation video](https://img.youtube.com/vi/Z9r3haLVEjc/2.jpg)](https://www.youtube.com/watch?v=Z9r3haLVEjc "play video")
+[![Simulation video](https://img.youtube.com/vi/J3epKVZyX-o/2.jpg)](https://www.youtube.com/watch?v=J3epKVZyX-o "play video") [![Simulation video](https://img.youtube.com/vi/Z9r3haLVEjc/2.jpg)](https://www.youtube.com/watch?v=Z9r3haLVEjc "play video")
 
 ### Overcoming numerical shockwave anomalies
 
