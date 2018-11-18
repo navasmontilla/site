@@ -32,7 +32,7 @@ The work herein presented has been developed at the [Computational Hydraulics Gr
 
 We aim at the generation of fully-discrete arbitrary order numerical schemes, based on the WENO spatial reconstruction and ADER time-stepping technique, with application to hyperbolic problems with source terms. The proposed schemes are based on augmented Riemann solvers that include the contribution of source terms in the definition of the Riemann problem, allowing the presevation of equilibrium states with machine precision.
 
-We consider the application of the aforementioned methods to the SWE with bed elevation, friction and Coriolis. In presence of such sources, the relevant equilibrium states are:
+We consider the application of the aforementioned methods to the SWE with bed elevation, friction and Coriolis. In presence of such sources, the relevant equilibrium states are (see Figure 3):
 
 - Quiescent equilibrium (well-balanced property).
 - Moving water equilibrium (energy-balanced property).
@@ -49,7 +49,7 @@ Furthermore, additional dissipation effects are accounted for by including turbu
 
 The first stage of the project was the development of the mathematical framework for the resolution of hyperbolic conservation laws with geometric source terms with arbitrary order of accuracy using WENO-ADER schemes. A new family of solvers for the Derivative Riemann problem are proposed, using the augmented-solver methodology and based on previous work from Toro, Castro and Titarev. The novelty of the proposed methods is:
 
-- For transient cases, they converge with arbitrary order to the analytical solution.
+- For transient cases, they converge with arbitrary order to the analytical solution (see Figure 4).
 - For steady cases, they provide the exact solution with independence of the grid thanks to the energy-balanced property.
 
 <figure style="text-align: center;">
