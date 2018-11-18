@@ -34,6 +34,12 @@ We aim at the generation of fully-discrete arbitrary order numerical schemes, ba
 
 #### The WENO ARL-ADER method in 2D: well-balanced simulation of the SWE with bed variation, friction and Coriolis
 
+[![Simulation video](https://img.youtube.com/vi/3SAfCJ6xGqY/2.jpg)](https://www.youtube.com/watch?v=3SAfCJ6xGqY "play video")
+
+[![Simulation video](https://img.youtube.com/vi/-Dye0LG8-Ds/2.jpg)](https://www.youtube.com/watch?v=-Dye0LG8-Ds "play video")
+
+[![Simulation video](https://img.youtube.com/vi/M7ep81gngow/2.jpg)](https://www.youtube.com/watch?v=M7ep81gngow "play video")
+
 #### URANS simulation of shallow flows using the WENO ARL-ADER method for the SWE
 
 ### Overcoming numerical shockwave anomalies
