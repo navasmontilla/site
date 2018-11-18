@@ -82,6 +82,12 @@ The numerical schemes in the previous section are extended to the resolution of 
 </figure>
 
 
+<figure style="text-align: center;">
+  <img src="github_site/kh_energy.png" width="90%" alt="my alt text"/>
+  <figcaption>Figure 6. Numerical simulation of a double shear layer.</figcaption>
+</figure>
+
+
 In the following videos, the 
 
 [![Simulation video](https://img.youtube.com/vi/3SAfCJ6xGqY/2.jpg)](https://www.youtube.com/watch?v=3SAfCJ6xGqY "play video") [![Simulation video](https://img.youtube.com/vi/-Dye0LG8-Ds/2.jpg)](https://www.youtube.com/watch?v=-Dye0LG8-Ds "play video") [![Simulation video](https://img.youtube.com/vi/M7ep81gngow/2.jpg)](https://www.youtube.com/watch?v=M7ep81gngow "play video")
