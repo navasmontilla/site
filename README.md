@@ -32,6 +32,17 @@ The work herein presented has been developed at the [Computational Hydraulics Gr
 
 We aim at the generation of fully-discrete arbitrary order numerical schemes, based on the WENO spatial reconstruction and ADER time-stepping technique, with application to hyperbolic problems with source terms. The proposed schemes are based on augmented Riemann solvers that include the contribution of source terms in the definition of the Riemann problem, allowing the presevation of equilibrium states with machine precision.
 
+For the SWE with source terms, the relevant equilibrium states are:
+
+- Quiescent equilibrium (well-balanced property).
+- Moving water equilibrium (energy-balanced property).
+- Geostrophic equilibrium (well-balanced property in the rotating frame).
+
+<figure style="text-align: center;">
+  <img src="github_site/equistates.png" alt="my alt text"/>
+  <figcaption>Figure 2. Relevant equilibrium states for the SWE.</figcaption>
+</figure>
+
 #### The WENO AR/ARL-ADER method in 1D: well-balanced and energy-balanced simulation of the SWE with bed variation
 
 #### The WENO ARL-ADER method in 2D: well-balanced simulation of the SWE with bed variation, friction and Coriolis
