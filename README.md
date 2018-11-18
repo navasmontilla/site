@@ -53,7 +53,7 @@ The first stage of the project was the development of the mathematical framework
 - For steady cases, they provide the exact solution with independence of the grid thanks to the energy-balanced property.
 
 <figure style="text-align: center;">
-  <img src="github_site/rps1.png" alt="my alt text"/>
+  <img src="github_site/rps1.png" width="80%" alt="my alt text"/>
   <figcaption>Figure 4. Relevant equilibrium states for the SWE.</figcaption>
 </figure>
 
