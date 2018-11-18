@@ -42,6 +42,10 @@ We aim at the generation of fully-discrete arbitrary order numerical schemes, ba
 
 #### URANS simulation of shallow flows using the WENO ARL-ADER method for the SWE
 
+[![Simulation video](https://img.youtube.com/vi/J3epKVZyX-o/2.jpg)](https://www.youtube.com/watch?v=J3epKVZyX-o "play video")
+
+[![Simulation video](https://img.youtube.com/vi/Z9r3haLVEjc/2.jpg)](https://www.youtube.com/watch?v=Z9r3haLVEjc "play video")
+
 ### Overcoming numerical shockwave anomalies
 
 ### Markdown
