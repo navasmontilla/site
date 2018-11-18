@@ -61,7 +61,7 @@ Detais of the methods and more results can be found in [Navas-Montilla, 2015](ht
 
 #### The WENO ARL-ADER method in 2D: well-balanced simulation of the SWE with bed variation, friction and Coriolis
 
-In this part, the numerical schemes in the previous section are extended to the resolution of the 2D SWE with geometric source term and their application to other shallow water models involving non-geometric sources is  explored. The novel schemes offer:
+The numerical schemes in the previous section are extended to the resolution of the 2D SWE with geometric source term and their application to other shallow water models involving non-geometric sources is  explored. The following milestones are achieved:
 
 - Arbitrary order resolution of the 2D SWE with bed elevation and friction ensuring the well-balanced property.
 
@@ -73,6 +73,7 @@ The proposed method offers a remarkable gain in computational time when applied 
   <img src="github_site/sim_times.png" width="90%" alt="my alt text"/>
   <figcaption>Figure 5. Numerical error vs. CPU and wall time, showing the achieved speed-up.</figcaption>
 </figure>
+
 
 
 
