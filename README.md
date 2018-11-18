@@ -53,13 +53,16 @@ The first stage of the project was the development of the mathematical framework
 - For steady cases, they provide the exact solution with independence of the grid thanks to the energy-balanced property.
 
 <figure style="text-align: center;">
-  <img src="github_site/rps1.png" width="85%" alt="my alt text"/>
+  <img src="github_site/rps1.png" width="80%" alt="my alt text"/>
   <figcaption>Figure 4. Resolution of RPs including strong bed variations.</figcaption>
 </figure>
 
 Detais of the methods and more results can be found in [Navas-Montilla, 2015](https://www.sciencedirect.com/science/article/pii/S0021999115001217) and [Navas-Montilla, 2016](https://www.sciencedirect.com/science/article/pii/S0021999116301024).
 
 #### The WENO ARL-ADER method in 2D: well-balanced simulation of the SWE with bed variation, friction and Coriolis
+
+In this part, the extension of the numerical schemes in the previous section are extended to the resolution of the 2D SWE with geometric source term and their application to other shallow water models involving non-geometric sources is also explored.
+
 
 [![Simulation video](https://img.youtube.com/vi/3SAfCJ6xGqY/2.jpg)](https://www.youtube.com/watch?v=3SAfCJ6xGqY "play video") [![Simulation video](https://img.youtube.com/vi/-Dye0LG8-Ds/2.jpg)](https://www.youtube.com/watch?v=-Dye0LG8-Ds "play video") [![Simulation video](https://img.youtube.com/vi/M7ep81gngow/2.jpg)](https://www.youtube.com/watch?v=M7ep81gngow "play video")
 
