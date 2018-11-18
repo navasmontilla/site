@@ -57,7 +57,7 @@ The first stage of the project was the development of the mathematical framework
   <figcaption>Figure 4. Resolution of RPs including strong bed variations.</figcaption>
 </figure>
 
-Detais of the methods and more results can be found in [Navas-Montilla, 2015](https://www.sciencedirect.com/science/article/pii/S0021999115001217) and [Navas-Montilla, 2016](https://www.sciencedirect.com/science/article/pii/S0021999116301024).
+Details of the methods and more results can be found in [Navas-Montilla, 2015](https://www.sciencedirect.com/science/article/pii/S0021999115001217) and [Navas-Montilla, 2016](https://www.sciencedirect.com/science/article/pii/S0021999116301024).
 
 #### The WENO ARL-ADER method in 2D: well-balanced simulation of the SWE with bed variation, friction and Coriolis
 
@@ -74,7 +74,7 @@ The numerical schemes in the previous section are extended to the resolution of 
   <figcaption>Figure 5. Numerical error vs. CPU and wall time, showing the achieved speed-up.</figcaption>
 </figure>
 
-- As the order is increased, the numerical diffusion is strongly reduced and the proposed schemes are able to reproduce the kinetic energy cascade for 2D turbulence. Figure 6 and 7 show the 
+- As the order is increased, the numerical diffusion is strongly reduced and the proposed schemes are able to reproduce the kinetic energy cascade for 2D turbulence. Figure 6 and 7 show the numerical resolution of  double shear layer 
 
 <figure style="text-align: center;">
   <img src="github_site/kh_set.png" width="90%" alt="my alt text"/>
@@ -93,7 +93,7 @@ In the following videos, the
 [![Simulation video](https://img.youtube.com/vi/3SAfCJ6xGqY/2.jpg)](https://www.youtube.com/watch?v=3SAfCJ6xGqY "play video") [![Simulation video](https://img.youtube.com/vi/-Dye0LG8-Ds/2.jpg)](https://www.youtube.com/watch?v=-Dye0LG8-Ds "play video") [![Simulation video](https://img.youtube.com/vi/M7ep81gngow/2.jpg)](https://www.youtube.com/watch?v=M7ep81gngow "play video")
 
 
-Detais of the methods and more results can be found in [Navas-Montilla, 2018](https://www.sciencedirect.com/science/article/pii/S0021999118304170) 
+Details of the methods and more results can be found in [Navas-Montilla, 2018](https://www.sciencedirect.com/science/article/pii/S0021999118304170) 
 
 #### URANS simulation of shallow flows using the WENO ARL-ADER method for the SWE
 
