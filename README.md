@@ -28,11 +28,11 @@ On the other hand, the presence of source terms in the equations is an issue whi
 
 The work herein presented has been developed at the [Computational Hydraulics Group](http://ghc.unizar.es) at [Univerisity of Zaragoza](https://www.unizar.es/). Computational resources have been provided by [LIFTEC-CSIC](http://www.liftec.unizar-csic.es/es/). The validation of the computational tools has been done in colaboration with the [LCH-EPFL](https://lch.epfl.ch/). 
 
-### Generation of arbitrary order augmented schemes for hyperbolic problems with source terms
+### Generation of arbitrary order augmented schemes for hyperbolic problems with source terms: application to the SWE
 
 We aim at the generation of fully-discrete arbitrary order numerical schemes, based on the WENO spatial reconstruction and ADER time-stepping technique, with application to hyperbolic problems with source terms. The proposed schemes are based on augmented Riemann solvers that include the contribution of source terms in the definition of the Riemann problem, allowing the presevation of equilibrium states with machine precision.
 
-For the SWE with source terms, the relevant equilibrium states are:
+We consider the application of the aforementioned methods to the SWE with bed elevation, friction and Coriolis. In presence of such sources, the relevant equilibrium states are:
 
 - Quiescent equilibrium (well-balanced property).
 - Moving water equilibrium (energy-balanced property).
@@ -40,8 +40,10 @@ For the SWE with source terms, the relevant equilibrium states are:
 
 <figure style="text-align: center;">
   <img src="github_site/equistates.png" alt="my alt text"/>
-  <figcaption>Figure 2. Relevant equilibrium states for the SWE.</figcaption>
+  <figcaption>Figure 3. Relevant equilibrium states for the SWE.</figcaption>
 </figure>
+
+Furthermore, additional dissipation effects are accounted for by including turbulence models using the Boussines approximation. The RANS and URANS approaches are considered and algebraic as well as 1 and 2 equation turbulence models are used.
 
 #### The WENO AR/ARL-ADER method in 1D: well-balanced and energy-balanced simulation of the SWE with bed variation
 
