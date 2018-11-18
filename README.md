@@ -68,8 +68,9 @@ In this part, the extension of the numerical schemes in the previous section are
   <figcaption>Figure 5. Numerical error vs. CPU and wall time, showing the achieved speed-up.</figcaption>
 </figure>
 
+<p style="text-align: center;">
 [![Simulation video](https://img.youtube.com/vi/3SAfCJ6xGqY/2.jpg)](https://www.youtube.com/watch?v=3SAfCJ6xGqY "play video") [![Simulation video](https://img.youtube.com/vi/-Dye0LG8-Ds/2.jpg)](https://www.youtube.com/watch?v=-Dye0LG8-Ds "play video") [![Simulation video](https://img.youtube.com/vi/M7ep81gngow/2.jpg)](https://www.youtube.com/watch?v=M7ep81gngow "play video")
-
+</p>
 Detais of the methods and more results can be found in [Navas-Montilla, 2018](https://www.sciencedirect.com/science/article/pii/S0021999118304170) 
 
 #### URANS simulation of shallow flows using the WENO ARL-ADER method for the SWE
