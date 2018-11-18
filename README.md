@@ -74,7 +74,7 @@ The numerical schemes in the previous section are extended to the resolution of 
   <figcaption>Figure 5. Numerical error vs. CPU and wall time, showing the achieved speed-up.</figcaption>
 </figure>
 
-- The proposed scheme 
+- As the order is increased, the numerical diffusion is strongly reduced and the proposed schemes are able to reproduce the kinetic energy cascade for 2D turbulence. Figure 6 and 7 show the 
 
 <figure style="text-align: center;">
   <img src="github_site/kh_set.png" width="90%" alt="my alt text"/>
