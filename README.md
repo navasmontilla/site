@@ -83,7 +83,7 @@ The numerical schemes in the previous section are extended to the resolution of 
 
 
 <figure style="text-align: center;">
-  <img src="github_site/kh_energy.png" width="90%" alt="my alt text"/>
+  <img src="github_site/kh_energy.png" width="80%" alt="my alt text"/>
   <figcaption>Figure 6. Numerical simulation of a double shear layer.</figcaption>
 </figure>
 
