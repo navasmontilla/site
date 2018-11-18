@@ -26,6 +26,8 @@ On the other hand, the presence of source terms in the equations is an issue whi
 
 ## Research project
 
+The work herein presented has been developed at the [Computational Hydraulics Group](http://ghc.unizar.es) at [Univerisity of Zaragoza](https://www.unizar.es/). Computational resources have been provided by [LIFTEC-CSIC](http://www.liftec.unizar-csic.es/es/). The validation of the computational tools have been done in colaboration of the [LCH-EPFL](https://lch.epfl.ch/). 
+
 ### Generation of arbitrary order augmented schemes for hyperbolic problems with source terms
 
 We aim at the generation of fully-discrete arbitrary order numerical schemes, based on the WENO spatial reconstruction and ADER time-stepping technique, with application to hyperbolic problems with source terms. The proposed schemes are based on augmented Riemann solvers that include the contribution of source terms in the definition of the Riemann problem, allowing the presevation of equilibrium states with machine precision.
