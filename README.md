@@ -47,10 +47,15 @@ Furthermore, additional dissipation effects are accounted for by including turbu
 
 #### The WENO AR/ARL-ADER method in 1D: well-balanced and energy-balanced simulation of the SWE with bed variation
 
-The first stage of the project was the development of the mathematical framework for the resolution of hyperbolic conservation laws with source terms with arbitrary order of accuracy using WENO-ADER schemes. A new family of solvers for the Derivative Riemann problem are proposed, using the augmented-solver methodology and based on previous work from Toro, Castro and Titarev. The novelty of the proposed methods is:
+The first stage of the project was the development of the mathematical framework for the resolution of hyperbolic conservation laws with geometric source terms with arbitrary order of accuracy using WENO-ADER schemes. A new family of solvers for the Derivative Riemann problem are proposed, using the augmented-solver methodology and based on previous work from Toro, Castro and Titarev. The novelty of the proposed methods is:
 
 - For transient cases, they converge with arbitrary order to the analytical solution.
 - For steady cases, they provide the exact solution with independence of the grid thanks to the energy-balanced property.
+
+<figure style="text-align: center;">
+  <img src="github_site/rps1.png" alt="my alt text"/>
+  <figcaption>Figure 4. Relevant equilibrium states for the SWE.</figcaption>
+</figure>
 
 Detais of the methods and more results can be found in [Navas-Montilla, 2015](https://www.sciencedirect.com/science/article/pii/S0021999115001217) and [Navas-Montilla, 2016](https://www.sciencedirect.com/science/article/pii/S0021999116301024).
 
