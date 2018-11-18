@@ -61,14 +61,16 @@ Detais of the methods and more results can be found in [Navas-Montilla, 2015](ht
 
 #### The WENO ARL-ADER method in 2D: well-balanced simulation of the SWE with bed variation, friction and Coriolis
 
-In this part, the extension of the numerical schemes in the previous section are extended to the resolution of the 2D SWE with geometric source term and their application to other shallow water models involving non-geometric sources is also explored. The proposed method, implemented using the OpenMP paradigm, offers a remarkable gain in computational time when applied to 2D shallow water scenarios with source terms. Figure 5 shows the numerical error vs. CPU time (single-threaded/serial execution) and wall time (parallel execution in 28 threads). The numerical results evidence that the 3-rd order scheme is able to provide the same level of accuracy than a 1-st order scheme requiring a 65 times shorter computational time, for an error of around 1.E-4. On the other hand, the plots also show that the paralellization of the code allows an additional speed-up.
+In this part, the extension of the numerical schemes in the previous section are extended to the resolution of the 2D SWE with geometric source term and their application to other shallow water models involving non-geometric sources is also explored. The proposed method offers a remarkable gain in computational time when applied to 2D shallow water scenarios with source terms. Figure 5 shows the numerical error vs. CPU time (single-threaded/serial execution) and wall time (parallel execution in 28 threads implemented using the OpenMP paradigm) for the resolution of an smooth non-equilibrium Gaussian water surface over a smooth bottom topography ([Navas-Montilla, 2018](https://www.sciencedirect.com/science/article/pii/S0021999118304170)). The numerical results evidence that the 3-rd order scheme is able to provide the same level of accuracy than a 1-st order scheme requiring a 65 times shorter computational time, for an error of around 1.E-4. It is worth noting that this gain is increased when lower errors are sought. Furthermore, the plots also show that the paralellization of the code with OpenMP allows an additional speed-up.
 
 <figure style="text-align: center;">
   <img src="github_site/sim_times.png" width="90%" alt="my alt text"/>
-  <figcaption>Figure 5. Numerical error vs. CPU and wall time, showing the ahcieved speedup.</figcaption>
+  <figcaption>Figure 5. Numerical error vs. CPU and wall time, showing the achieved speed-up.</figcaption>
 </figure>
 
 [![Simulation video](https://img.youtube.com/vi/3SAfCJ6xGqY/2.jpg)](https://www.youtube.com/watch?v=3SAfCJ6xGqY "play video") [![Simulation video](https://img.youtube.com/vi/-Dye0LG8-Ds/2.jpg)](https://www.youtube.com/watch?v=-Dye0LG8-Ds "play video") [![Simulation video](https://img.youtube.com/vi/M7ep81gngow/2.jpg)](https://www.youtube.com/watch?v=M7ep81gngow "play video")
+
+Detais of the methods and more results can be found in [Navas-Montilla, 2018](https://www.sciencedirect.com/science/article/pii/S0021999118304170) 
 
 #### URANS simulation of shallow flows using the WENO ARL-ADER method for the SWE
 
