@@ -26,7 +26,9 @@ On the other hand, the presence of source terms in the equations is an issue whi
 
 ## Research project
 
-The work herein presented has been developed at the [Computational Hydraulics Group](http://ghc.unizar.es) at [Univerisity of Zaragoza](https://www.unizar.es/). Computational resources have been provided by [LIFTEC-CSIC](http://www.liftec.unizar-csic.es/es/). The validation of the computational tools has been done in colaboration with the [LCH-EPFL](https://lch.epfl.ch/). 
+The work herein presented has been developed at the [Computational Hydraulics Group](http://ghc.unizar.es) at [Univerisity of Zaragoza](https://www.unizar.es/). Computational resources have been provided by [LIFTEC-CSIC](http://www.liftec.unizar-csic.es/es/). The validation of the computational tools has been done in colaboration with the [LCH-EPFL](https://lch.epfl.ch/).
+
+This work is the result of my Doctoral Thesis [Accurate simulation of shallow flows using arbitrary order ADER schemes and overcoming numerical shockwave anomalies](https://zaguan.unizar.es/record/70795?ln=en), supervised by Dr. J. Murillo. 
 
 ### Generation of arbitrary order augmented schemes for hyperbolic problems with source terms: application to the SWE
 
@@ -121,7 +123,7 @@ In shallow flows, there is a coexistence of small-scale 3D turbulence, mainly ge
 
 <figure style="text-align: center;">
   <img src="github_site/conical_island.png" width="100%" alt="my alt text"/>
-  <figcaption>Figure 10. Numerical simulation of a shallow water flow over a [submerged conical island](http://coastal.usc.edu/currents_workshop/problems/prob1.html).</figcaption>
+  <figcaption>Figure 10. Numerical simulation of a shallow water flow over a <a href="http://coastal.usc.edu/currents_workshop/problems/prob1.html">submerged conical island</a>.</figcaption>
 </figure>
 
 
