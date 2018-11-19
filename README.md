@@ -129,7 +129,13 @@ Turbulence modelling is of practical application when simulating the flow intera
   <figcaption>Figure 10. Numerical simulation of a shallow water flow over a submerged conical island <a href="https://www.youtube.com/watch?v=J3epKVZyX-o">(watch video)</a>.</figcaption>
 </figure>
 
+#### Application of the model to a practical problem of scientific relevance: river restoration
 
+In the last decades, riverine and coastal habitats have degenerated because of anthropogenic activities. Nowadays, the scientific community is making a big effort to design novel approaches to recover biodiversity in such ecosystems. The utilization of fast and reliable predictive tools will suppose a breakthrough in this field as they will provide very efficient strategies based on the predicted quantitative variables. 
+
+Channels with lateral cavities are commonly used for river restoration purposes as the presence of cavities enhances fine sediment trapping. The flow in these channels, far from being simple, involves the presence of steady seiching waves produced by the coupling between the instability of the separated turbulent layer along the opening of the cavities and a gravity standing wave within the cavities. Such coupling is associated with large-scale coherent vortical structures in the unstable shear layer and periodic oscillations of the free surface within the cavity. The complexity of such flow configuration challenges the prediction capability of the proposed models. 
+
+Previous studies on this 
 
 
 <figure style="text-align: center;">
