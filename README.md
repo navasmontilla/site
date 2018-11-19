@@ -106,7 +106,7 @@ around a square cylinder, provided by a 3rd order scheme (top) and 1st order sch
 </figure>
 
 
-Please watch the following videos: 
+Watch the following videos for more examples: 
 
 [![Simulation video](https://img.youtube.com/vi/3SAfCJ6xGqY/2.jpg)](https://www.youtube.com/watch?v=3SAfCJ6xGqY "play video") [![Simulation video](https://img.youtube.com/vi/-Dye0LG8-Ds/2.jpg)](https://www.youtube.com/watch?v=-Dye0LG8-Ds "play video") [![Simulation video](https://img.youtube.com/vi/M7ep81gngow/2.jpg)](https://www.youtube.com/watch?v=M7ep81gngow "play video")
 
@@ -115,6 +115,9 @@ Details of the methods and more results can be found in [Navas-Montilla, 2018](h
 
 #### URANS simulation of shallow flows using the WENO ARL-ADER method for the SWE
 
+The proposed scheme offers a very low numerical dissipation, allowing the computation of very small turbulent structures and the reproduction of the theoretical energy cascade as the grid is refined. However, the mathematical model considers a 2D depth averaged flow, while turbulence is, in essence, three dimensional. Therefore, extra dissipation terms must be included to account for the small scale turbulent dissipation that the model cannot resolve. 
+
+In shallow flows, there is a coexistence of small-scale 3D turbulence, mainly generated due to the friction with the bottom, and large-scale 2D turbulence. The proposed model uses a turbulence model to account for the effects of the former and resolves the latter.
 
 <figure style="text-align: center;">
   <img src="github_site/conical_island.png" width="100%" alt="my alt text"/>
@@ -122,7 +125,7 @@ Details of the methods and more results can be found in [Navas-Montilla, 2018](h
 </figure>
 
 
-Please watch the following videos: 
+Watch the following videos for more examples: 
 
 
 [![Simulation video](https://img.youtube.com/vi/J3epKVZyX-o/2.jpg)](https://www.youtube.com/watch?v=J3epKVZyX-o "play video") [![Simulation video](https://img.youtube.com/vi/Z9r3haLVEjc/2.jpg)](https://www.youtube.com/watch?v=Z9r3haLVEjc "play video")
