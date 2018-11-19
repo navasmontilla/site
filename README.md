@@ -117,7 +117,7 @@ Details of the methods and more results can be found in [Navas-Montilla, 2018](h
 
 
 <figure style="text-align: center;">
-  <img src="github_site/conical_island.png" width="90%" alt="my alt text"/>
+  <img src="github_site/conical_island.png" width="100%" alt="my alt text"/>
   <figcaption>Figure 10. Numerical simulation of .</figcaption>
 </figure>
 
