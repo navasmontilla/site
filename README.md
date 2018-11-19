@@ -65,6 +65,21 @@ The numerical schemes in the previous section are extended to the resolution of 
 
 - The proposed schemes offer an arbitrary order resolution of the 2D SWE with bed elevation and friction ensuring the well-balanced property.
 
+<figure style="text-align: center;">
+  <img src="github_site/watersurf.png" width="80%" alt="my alt text"/>
+  <figcaption>Figure 5. Numerical resolution of the reflection wave pattern generated in a subcritical free surface flow
+around a square cylinder, provided by a 3rd order scheme (top) and 1st order scheme (bottom). [Watch video](https://img.youtube.com/vi/M7ep81gngow/2.jpg). </figcaption>
+</figure>
+
+- The proposed schemes allow to compute the advection of solutes with arbitrary order of accuracy.
+
+
+<figure style="text-align: center;">
+  <img src="github_site/solutes.png" width="90%" alt="my alt text"/>
+  <figcaption>Figure 6. Numerical simulation of the transport of a passive scalar quantity within a complex flow pattern using a 3rd order scheme (top) and 1st order scheme (bottom). [Watch video](https://img.youtube.com/vi/M7ep81gngow/2.jpg). </figcaption>
+</figure>
+
+
 - The same schemes are applied to the resolution of the SWE in the rotating frame (including Coriolis). The Coriolis source term is reinterpreted as a geometric source term by means of the definition of primitive (integral) variables.
 
 - The proposed methods offer a remarkable gain in computational efficiency when applied to 2D shallow water scenarios with source terms. Figure 5 shows the numerical error vs. CPU time (single-threaded/serial execution) and wall time (parallel execution in 28 threads implemented using the OpenMP paradigm) for the resolution of an smooth non-equilibrium Gaussian water surface over a smooth bottom topography ([Navas-Montilla, 2018](https://www.sciencedirect.com/science/article/pii/S0021999118304170)). The numerical results evidence that the 3-rd order scheme is able to provide the same level of accuracy than a 1-st order scheme requiring a 65 times shorter computational time, for an error of around 1.E-4. It is worth noting that this gain is increased when seeking lower errors. Furthermore, the plots also show that the paralellization of the code using OpenMP allows an important speed-up.
