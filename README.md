@@ -121,7 +121,7 @@ In shallow flows, there is a coexistence of small-scale 3D turbulence, mainly ge
 
 <figure style="text-align: center;">
   <img src="github_site/conical_island.png" width="100%" alt="my alt text"/>
-  <figcaption>Figure 10. Numerical simulation of .</figcaption>
+  <figcaption>Figure 10. Numerical simulation of a shallow water flow over a [submerged conical island](http://coastal.usc.edu/currents_workshop/problems/prob1.html).</figcaption>
 </figure>
 
 
@@ -132,41 +132,6 @@ Watch the following videos for more examples:
 
 ### Overcoming numerical shockwave anomalies
 
-### Markdown
+### Contact
 
-Here it is an example of how to add a link to a video:
-
-[![Simulation video](https://img.youtube.com/vi/M7ep81gngow/2.jpg)](https://www.youtube.com/watch?v=M7ep81gngow "video name")
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-* [Hyperlink](test.md)
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/navasmontilla/site/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+For more information, please contact me: anavas [at] unizar.es
