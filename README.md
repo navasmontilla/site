@@ -63,7 +63,7 @@ Details of the methods and more results can be found in [Navas-Montilla, 2015](h
 
 The numerical schemes in the previous section are extended to the resolution of the 2D SWE with geometric source term and their application to other shallow water models involving non-geometric sources is  explored. The following issues are highlighted:
 
-- The proposed schemes offer an arbitrary order resolution of the 2D SWE with bed elevation and friction ensuring the well-balanced property.
+- The proposed schemes offer an arbitrary order resolution of the 2D SWE with bed elevation and friction ensuring the well-balanced property, as shown in Figure 5.
 
 <figure style="text-align: center;">
   <img src="github_site/watersurf.png" width="80%" alt="my alt text"/>
@@ -71,16 +71,16 @@ The numerical schemes in the previous section are extended to the resolution of 
 around a square cylinder, provided by a 3rd order scheme (top) and 1st order scheme (bottom). <a href="https://www.youtube.com/watch?v=M7ep81gngow">Watch video</a>. </figcaption>
 </figure>
 
-- The proposed schemes allow to compute the advection of solutes with arbitrary order of accuracy.
+- The proposed schemes allow to compute the advection of solutes with arbitrary order of accuracy, a shown in Figure 6.
 
 
 <figure style="text-align: center;">
-  <img src="github_site/solutes.png" width="90%" alt="my alt text"/>
-  <figcaption>Figure 6. Numerical simulation of the transport of a passive scalar quantity within a complex flow pattern using a 3rd order scheme (top) and 1st order scheme (bottom). [Watch video](https://img.youtube.com/vi/M7ep81gngow/2.jpg). </figcaption>
+  <img src="github_site/solutes.png" width="98%" alt="my alt text"/>
+  <figcaption>Figure 6. Numerical simulation of the transport of a passive scalar quantity within a complex flow pattern using a 3rd order scheme (top) and 1st order scheme (bottom). [Watch video](https://img.youtube.com/vi/M7ep81gngow/2.jpg). <a href="https://www.youtube.com/watch?v=M7ep81gngow">Watch video</a>. </figcaption>
 </figure>
 
 
-- The same schemes are applied to the resolution of the SWE in the rotating frame (including Coriolis). The Coriolis source term is reinterpreted as a geometric source term by means of the definition of primitive (integral) variables.
+- The same schemes are applied to the resolution of the SWE in the rotating frame (including Coriolis). The Coriolis source term is reinterpreted as a geometric source term by means of the definition of primitive (integral) variables. The model can be applied to the simulation of propagation of Rossby waves along the equatorial line ([Watch video](https://www.youtube.com/watch?v=-Dye0LG8-Ds)).
 
 - The proposed methods offer a remarkable gain in computational efficiency when applied to 2D shallow water scenarios with source terms. Figure 5 shows the numerical error vs. CPU time (single-threaded/serial execution) and wall time (parallel execution in 28 threads implemented using the OpenMP paradigm) for the resolution of an smooth non-equilibrium Gaussian water surface over a smooth bottom topography ([Navas-Montilla, 2018](https://www.sciencedirect.com/science/article/pii/S0021999118304170)). The numerical results evidence that the 3-rd order scheme is able to provide the same level of accuracy than a 1-st order scheme requiring a 65 times shorter computational time, for an error of around 1.E-4. It is worth noting that this gain is increased when seeking lower errors. Furthermore, the plots also show that the paralellization of the code using OpenMP allows an important speed-up.
 
