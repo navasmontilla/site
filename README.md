@@ -76,7 +76,7 @@ around a square cylinder, provided by a 3rd order scheme (top) and 1st order sch
 
 <figure style="text-align: center;">
   <img src="github_site/solutes.png" width="98%" alt="my alt text"/>
-  <figcaption>Figure 6. Numerical simulation of the transport of a passive scalar quantity within a complex flow pattern using a 3rd order scheme (top) and 1st order scheme (bottom). [Watch video](https://img.youtube.com/vi/M7ep81gngow/2.jpg). <a href="https://www.youtube.com/watch?v=M7ep81gngow">Watch video</a>. </figcaption>
+  <figcaption>Figure 6. Numerical simulation of the transport of a passive scalar quantity within a complex flow pattern using a 3rd order scheme (top) and 1st order scheme (bottom). <a href="https://www.youtube.com/watch?v=M7ep81gngow">Watch video</a>. </figcaption>
 </figure>
 
 
