@@ -51,7 +51,8 @@ Furthermore, additional dissipation effects are accounted for by including turbu
 
 The first stage of the project was the development of the mathematical framework for the resolution of hyperbolic conservation laws with geometric source terms with arbitrary order of accuracy using WENO-ADER schemes. A new family of solvers for the Derivative Riemann problem are proposed, using the augmented-solver methodology and based on previous work from Toro, Castro and Titarev. The novelty of the proposed methods is:
 
-- For transient cases, they converge with arbitrary order to the analytical solution (see Figure 4).
+- For transient cases, they converge with arbitrary order to the analytical solution. The numerical solution to a complete set of RPs, including solutions in the resonant regime, are presented in [Navas-Montilla, 2015](https://www.sciencedirect.com/science/article/pii/S0021999115001217) and [Navas-Montilla, 2016](https://www.sciencedirect.com/science/article/pii/S0021999116301024) (see Figure 4).
+
 - For steady cases, they provide the exact solution with independence of the grid thanks to the energy-balanced property.
 
 <figure style="text-align: center;">
@@ -82,7 +83,7 @@ around a square cylinder, provided by a 3rd order scheme (top) and 1st order sch
 </figure>
 
 
-- The scheme is applied to the resolution of the SWE in the rotating frame (including Coriolis). The Coriolis source term is reinterpreted as a geometric source term by means of the definition of primitive (integral) variables. The model can be applied to the simulation of propagation of Rossby waves along the equatorial line ([Watch video](https://www.youtube.com/watch?v=-Dye0LG8-Ds)).
+- The scheme is applied to the resolution of the SWE in the rotating frame (including Coriolis). The Coriolis source term is reinterpreted as a geometric source term by means of the definition of primitive (integral) variables. The model can be applied to the simulation of propagation of Rossby waves along the equatorial line. In  [Navas-Montilla, 2018](https://www.sciencedirect.com/science/article/pii/S0021999118304170), the results for the [benchmark of the propagation of  equatorial Rossby solitons](https://marine.rutgers.edu/po/index.php?model=test-problems&title=soliton&page=metrics) are presented and the relative errors for the amplitude and celerity of the soliton are kept below 2% ([Watch video](https://www.youtube.com/watch?v=-Dye0LG8-Ds)).
 
 - The proposed methods offer a remarkable gain in computational efficiency when applied to 2D shallow water scenarios with source terms. Figure 7 shows the numerical error vs. CPU time (single-threaded/serial execution) and wall time (parallel execution in 28 threads implemented using the OpenMP paradigm) for the resolution of an smooth non-equilibrium Gaussian water surface over a smooth bottom topography ([Navas-Montilla, 2018](https://www.sciencedirect.com/science/article/pii/S0021999118304170)). The numerical results evidence that the 3-rd order scheme is able to provide the same level of accuracy than a 1-st order scheme requiring a 65 times shorter computational time, for an error of around 1.E-4. It is worth noting that this gain is increased when seeking lower errors. Furthermore, the plots also show that the paralellization of the code using OpenMP allows an important speed-up.
 
