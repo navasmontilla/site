@@ -68,7 +68,7 @@ The numerical schemes in the previous section are extended to the resolution of 
 <figure style="text-align: center;">
   <img src="github_site/watersurf.png" width="80%" alt="my alt text"/>
   <figcaption>Figure 5. Numerical resolution of the reflection wave pattern generated in a subcritical free surface flow
-around a square cylinder, provided by a 3rd order scheme (top) and 1st order scheme (bottom). [Watch video](https://img.youtube.com/vi/M7ep81gngow/2.jpg). </figcaption>
+around a square cylinder, provided by a 3rd order scheme (top) and 1st order scheme (bottom). <a href="https://www.youtube.com/watch?v=M7ep81gngow">Watch video</a>. </figcaption>
 </figure>
 
 - The proposed schemes allow to compute the advection of solutes with arbitrary order of accuracy.
