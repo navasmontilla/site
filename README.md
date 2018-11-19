@@ -129,14 +129,17 @@ Turbulence modelling is of practical application when simulating the flow intera
   <figcaption>Figure 10. Numerical simulation of a shallow water flow over a submerged conical island <a href="https://www.youtube.com/watch?v=J3epKVZyX-o">(watch video)</a>.</figcaption>
 </figure>
 
+
+
+
 <figure style="text-align: center;">
-  <img src="github_site/cavity3d.png" width="80%" alt="my alt text"/>
-  <figcaption>Figure 11. .</figcaption>
+  <img src="github_site/cavity3d.png" width="70%" alt="my alt text"/>
+  <figcaption>Figure 11. Configuration of a channel with lateral cavities.</figcaption>
 </figure>
 
 <figure style="text-align: center;">
   <img src="github_site/cavities_turb.png" width="80%" alt="my alt text"/>
-  <figcaption>Figure 12. .</figcaption>
+  <figcaption>Figure 12. Experimental and computed water surface elevation evolution in time at points E3, E4 and E5 without (left) and with turbulence model (right).</figcaption>
 </figure>
 
 Watch the following videos for more examples: 
