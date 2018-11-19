@@ -115,6 +115,12 @@ Details of the methods and more results can be found in [Navas-Montilla, 2018](h
 
 #### URANS simulation of shallow flows using the WENO ARL-ADER method for the SWE
 
+
+<figure style="text-align: center;">
+  <img src="github_site/conical_island.png" width="90%" alt="my alt text"/>
+  <figcaption>Figure 7. Numerical simulation of .</figcaption>
+</figure>
+
 [![Simulation video](https://img.youtube.com/vi/J3epKVZyX-o/2.jpg)](https://www.youtube.com/watch?v=J3epKVZyX-o "play video") [![Simulation video](https://img.youtube.com/vi/Z9r3haLVEjc/2.jpg)](https://www.youtube.com/watch?v=Z9r3haLVEjc "play video")
 
 ### Overcoming numerical shockwave anomalies
