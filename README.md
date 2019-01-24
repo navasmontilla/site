@@ -135,8 +135,6 @@ In the last decades, riverine and coastal habitats have degenerated because of a
 
 Channels with lateral cavities are commonly used for river restoration purposes as the presence of cavities enhances fine sediment trapping. The flow in these channels, far from being simple, involves the presence of steady seiching waves produced by the coupling between the instability of the separated turbulent layer along the opening of the cavities and a gravity standing wave within the cavities. Such coupling is associated with large-scale coherent vortical structures in the unstable shear layer and periodic oscillations of the free surface within the cavity. The complexity of such flow configuration challenges the prediction capability of the proposed models. 
 
-Previous studies on this 
-
 
 <figure style="text-align: center;">
   <img src="github_site/cavity3d.png" width="70%" alt="my alt text"/>
