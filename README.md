@@ -137,7 +137,7 @@ Turbulence modelling is of practical application when simulating the flow intera
 Figure 10 shows a snapshot of simulated tracer concentration distribution where the von-Karman vortex street can be observed. Only when including a suitable calibration of the friction coefficient and the turbulence model, the velocities in the wake are properly predicted and there is a stable periodicity in the shedding of von-Karman vortices. Figure 11 displays a comparison between numerical and experimental velocities in the wake region.  
 
 <figure style="text-align: center;">
-  <img src="github_site/conical_island_results.png" width="100%" alt="my alt text"/>
+  <img src="github_site/conical_island_results.png" width="80%" alt="my alt text"/>
   <figcaption>Figure 11. Experimental (dots) and numerical velocities in the wake of the island. The red line depicts the solution without turbulence model and the blue line with turbulence model. <a href="https://www.youtube.com/watch?v=J3epKVZyX-o">(Watch video)</a>.</figcaption>
 </figure>
 
