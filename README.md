@@ -10,7 +10,7 @@ Hyperbolic partial differential equations arise in a broad variety of fields whe
 
 ### State-of-the-art challenges
 
-Nowadays, the current trend is to design accurate and efficient schemes by means of a combination of: (a) very high order numerical schemes (e.g. WENO, ADER and DG schemes), which require a shorter computational time and memory than a lower order scheme to achieve the same accuracy (see Figures 1 and 2), (b) adaptive mesh refinement techniques and other sophisticated meshing algorithms and (c) efficient parallel implementations for high performance computing (OpenMP, MPI, CUDA and OpenACC, among others).
+Nowadays, the current trend is to design accurate and efficient schemes by means of a combination of: (a) very high order numerical schemes (e.g. WENO, ENO, DG reconstructions with ADER and RK integrators), which require a shorter computational time and memory than a lower order scheme to achieve the same accuracy (see Figures 1 and 2), (b) adaptive mesh refinement techniques and other sophisticated meshing algorithms and (c) efficient parallel implementations for high performance computing (OpenMP, MPI, CUDA and OpenACC, among others).
 
 <figure style="text-align: center;">
   <img src="github_site/examples1.png" alt="my alt text"/>
@@ -146,6 +146,8 @@ Figure 10 shows a snapshot of simulated tracer concentration distribution where 
 In the last decades, riverine and coastal habitats have degenerated because of anthropogenic activities. Nowadays, the scientific community is making a big effort to design novel approaches to recover biodiversity in such ecosystems. The utilization of fast and reliable predictive tools will suppose a breakthrough in this field as they will provide very efficient strategies based on the predicted quantitative variables. 
 
 Channels with lateral cavities are commonly used for river restoration purposes as the presence of cavities enhances fine sediment trapping. The flow in these channels, far from being simple, involves the presence of steady seiching waves produced by the coupling between the instability of the separated turbulent layer along the opening of the cavities and a gravity standing wave within the cavities. Such coupling is associated with large-scale coherent vortical structures in the unstable shear layer and periodic oscillations of the free surface within the cavity. The complexity of such flow configuration challenges the prediction capability of the proposed models. 
+
+Detailed results of the application of the proposed schemes to the simulation of channels with lateral cavities can be found in the following article [Navas-Montilla, 2019](https://doi.org/10.1016/j.jcp.2019.06.037).
 
 
 <figure style="text-align: center;">
