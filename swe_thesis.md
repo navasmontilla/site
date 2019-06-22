@@ -1,8 +1,8 @@
-### Generation of arbitrary order augmented schemes for hyperbolic problems with source terms: application to the SWE
-
 The work herein presented has been developed at the [Computational Hydraulics Group](http://ghc.unizar.es) at [Univerisity of Zaragoza](https://www.unizar.es/). Computational resources have been provided by [LIFTEC-CSIC](http://www.liftec.unizar-csic.es/es/). The validation of the computational tools has been done in colaboration with the [LCH-EPFL](https://lch.epfl.ch/).
 
 This work is the result of my Doctoral Thesis [Accurate simulation of shallow flows using arbitrary order ADER schemes and overcoming numerical shockwave anomalies](https://zaguan.unizar.es/record/70795?ln=en), supervised by Dr. J. Murillo and presented at University of Zaragoza on the 27th April 2018. In the following sections, the most relevant aspects of this thesis are brought out and supplementary multimedia content is presented.
+
+### Generation of arbitrary order augmented schemes for hyperbolic problems with source terms: application to the SWE
 
 We aim at the generation of fully-discrete arbitrary order numerical schemes, based on the WENO spatial reconstruction and ADER time-stepping technique, with application to hyperbolic problems with source terms. The proposed schemes are based on augmented Riemann solvers that include the contribution of source terms in the definition of the Riemann problem, allowing the presevation of equilibrium states with machine precision.
 
