@@ -167,6 +167,8 @@ Watch the following videos for more examples:
 
 ### Overcoming numerical shockwave anomalies
 
+[a relative link](test.md)
+
 ### Contact
 
 For more information, please contact me: anavas [at] unizar.es
