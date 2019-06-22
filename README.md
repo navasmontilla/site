@@ -27,7 +27,10 @@ On the other hand, the presence of source terms in the equations is an issue whi
 ## Research lines
 
 
-[High order simulation of free surface shallow flows](swe_thesis.md)
+- [Accurate simulation of free surface shallow flows](swe_thesis.md) (results of my PhD thesis)
+
+- [Augmented resolution of non-conservative systems and hyperbolized problems](test.md)
+
 
 ## Contact
 
