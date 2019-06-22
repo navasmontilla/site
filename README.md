@@ -141,7 +141,7 @@ Figure 10 shows a snapshot of simulated tracer concentration distribution where 
   <figcaption>Figure 11. Experimental (dots) and numerical velocities in the wake of the island. Solution without turbulence model (light blue), with turbulence model with low diffusion (blue) and with optimal calibration (purple). <a href="https://www.youtube.com/watch?v=J3epKVZyX-o">(Watch video)</a>.</figcaption>
 </figure>
 
-#### Application of the model to a practical problem of scientific relevance: river restoration
+#### Application of the model to a practical problem of environmental relevance: river restoration
 
 In the last decades, riverine and coastal habitats have degenerated because of anthropogenic activities. Nowadays, the scientific community is making a big effort to design novel approaches to recover biodiversity in such ecosystems. The utilization of fast and reliable predictive tools will suppose a breakthrough in this field as they will provide very efficient strategies based on the predicted quantitative variables. 
 
