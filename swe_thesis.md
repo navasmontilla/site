@@ -41,7 +41,7 @@ The numerical schemes in the previous section were then extended to the resoluti
 - The proposed scheme offers an arbitrary order resolution of the 2D SWE with bed elevation and friction ensuring the well-balanced property. The application of the scheme to the resolution of a complex flow pattern around a solid obstacle is shown in Figure 5.
 
 <figure style="text-align: center;">
-  <img src="github_site/watersurf.png" width="80%" alt="my alt text"/>
+  <img src="github_site/shocks.png" width="80%" alt="my alt text"/>
   <figcaption>Figure 5. Numerical resolution of the reflection wave pattern generated in a subcritical free surface flow
 around a square cylinder, provided by a 3rd order scheme (top) and 1st order scheme (bottom). <a href="https://www.youtube.com/watch?v=M7ep81gngow">Watch video</a>. </figcaption>
 </figure>
