@@ -10,7 +10,7 @@ Hyperbolic partial differential equations arise in a broad variety of fields whe
 
 ## State-of-the-art challenges
 
-Nowadays, the current trend is to design accurate and efficient schemes by means of a combination of: (a) very high order numerical schemes (e.g. WENO, ENO, DG reconstructions with ADER and RK integrators), which require a shorter computational time and memory than a lower order scheme to achieve the same accuracy (see Figures 1 and 2), (b) adaptive mesh refinement techniques and other sophisticated meshing algorithms and (c) efficient parallel implementations for high performance computing (OpenMP, MPI, CUDA and OpenACC, among others).
+Nowadays, the current trend is to design accurate and efficient schemes by means of a combination of: (a) very high order numerical schemes (e.g. WENO, ENO, DG reconstructions with ADER and RK integrators), which require a shorter computational time and memory than a lower order scheme to achieve the same accuracy (see Figures 1, 2 and 3), (b) adaptive mesh refinement techniques and other sophisticated meshing algorithms and (c) efficient parallel implementations for high performance computing (OpenMP, MPI, CUDA and OpenACC, among others).
 
 <figure style="text-align: center;">
   <img src="github_site/examples1.png" alt="my alt text"/>
@@ -18,8 +18,13 @@ Nowadays, the current trend is to design accurate and efficient schemes by means
 </figure>
 
 <figure style="text-align: center;">
+  <img src="github_site/comp_orders.png" alt="my alt text"/>
+  <figcaption>Figure 2. Numerical solution of a Kelvin-Helmholtz instability for Euler equations using a 1-st order and 5-th order WENO-RK scheme.</figcaption>
+</figure>
+
+<figure style="text-align: center;">
   <img src="github_site/examples2.png" alt="my alt text"/>
-  <figcaption>Figure 2. Logarithmic plot of the numerical error versus the number of cells (left) and CPU time (right) for the resolution of the acoustic equations using the WENO-ADER scheme.</figcaption>
+  <figcaption>Figure 3. Logarithmic plot of the numerical error versus the number of cells (left) and CPU time (right) for the resolution of the acoustic equations using the WENO-ADER scheme.</figcaption>
 </figure>
 
 On the other hand, the presence of source terms in the equations is an issue which we must pay attention to. Source terms model the presence of extra physical effects not represented by the pure conservative terms in the equations and may often govern the dynamics of the problem. The search of a suitable treatment of the source term in the numerical scheme is not a trivial task, but it is of utmost importance in order to preserve steady states of relevance.
