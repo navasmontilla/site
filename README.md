@@ -34,6 +34,8 @@ On the other hand, the presence of source terms in the equations is an issue whi
 
 - [Accurate simulation of free surface shallow flows](swe_thesis.md) (results of my PhD thesis)
 
+- [Overcoming numerical shockwave anomalies](test.md) (results of my PhD thesis)
+
 - [Evaluation of the spectral properties of numerical schemes](test.md)
 
 - [Computational hemodynamics](test.md)
