@@ -46,11 +46,20 @@ At present, the explanation for the carbuncle is still not clear. Previous liter
   <figcaption>Figure 5. Sketch of the intrinsic mechanisms behind the carbuncle. Adapted from <a href="https://www.researchgate.net/publication/263845832_The_Carbuncle_Phenomenon_in_Shallow_Water_Simulations">Bader and Kemm</a>.</figcaption>
 </figure>
 
-In [Navas-Montilla, 2019](https://www.sciencedirect.com/science/article/pii/S0021999118307496), the spike-reducing solver is enhanced using a wave-smearing technique in the resolution of the contact wave (increasing the numerical diffusion across it), which reduces the appearance of the Carbuncle when computing supercritical shocks. The numerical resolution of a hydraulic jump over a smoothly-varying bed by means of the traditional ARoe and HLLS solvers, as well as the spike-reducing carbuncle-free solvers, is presented in Figure 6.
+When solving the SWE, the carbuncle is likely to appear across strong shocks, such as hydraulic jumps. Figure 6 shows the rendered water surface elevation of a bow-shock-like hydraulic jump around a solid cylinder, computed by the Roe solver and the HLLS solver. It is observed that the carbuncle exhibits a completely unphysical water surface distribution, which even oscillates in time. 
+
+
+<figure style="text-align: center;">
+  <img src="github_site/montaje_carb.png" width="70%" alt="my alt text"/>
+  <figcaption>Figure 6. Rendered water surface elevation of a bow-shock-like hydraulic jump around a solid cylinder, computed by the Roe solver (bottom) and the HLLS solver (top) .</figcaption>
+</figure>
+
+
+In [Navas-Montilla, 2019](https://www.sciencedirect.com/science/article/pii/S0021999118307496), the spike-reducing solver is enhanced using a wave-smearing technique in the resolution of the contact wave (increasing the numerical diffusion across it), which reduces the appearance of the Carbuncle when computing supercritical shocks. The numerical resolution of a hydraulic jump over a smoothly-varying bed by means of the traditional ARoe and HLLS solvers, as well as the spike-reducing carbuncle-free solvers, is presented in Figure 7.
 
 <figure style="text-align: center;">
   <img src="github_site/carbuncle2.png" width="70%" alt="my alt text"/>
-  <figcaption>Figure 6. Resolution of a hydraulic jump over a smoothly-varying bed, computed by different solvers.</figcaption>
+  <figcaption>Figure 7. Resolution of a hydraulic jump over a smoothly-varying bed, computed by different solvers.</figcaption>
 </figure>
 
 Watch this animation:
