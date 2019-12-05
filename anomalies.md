@@ -6,14 +6,14 @@ From the early stages of CFD, the computation of shocks using Finite Volume meth
 
 #### The slowly-moving shock anomaly
 
-The slowly-moving shock anomaly was first investigated by Roberts, who defined it as numerical noise generated in the discrete shock transition layer which is transported downstream. Such noise is also referred to as post-shock oscillations (Figure 1). 
+The slowly-moving shock anomaly was first investigated by [Roberts](https://www.sciencedirect.com/science/article/pii/002199919090200K), who defined it as numerical noise generated in the discrete shock transition layer which is transported downstream. Such noise is also referred to as post-shock oscillations (Figure 1). 
 
 <figure style="text-align: center;">
   <img src="github_site/anomaly3.png" width="80%" alt="my alt text"/>
   <figcaption>Figure 1. Slowly-moving shock anomaly. Space-time representation of the discharge across a hydraulic jump, using the SWE.</figcaption>
 </figure>
 
-The slowly-moving shock problem is related to nonlinearities of the Hugoniot curves, which in the case of the SWE, are found in those branches of the Hugoniot locus related to hydraulic jump-type solutions.  Generally, physical shockwaves have a finite width, determined by the physical dissipation processes taking place within the shock. This is the case of hydraulic jumps, whose width has to do with the turbulent transition between the supercritical, more energetic region and the subcritical region. Contrary to this, shocks are mathematically represented by pure discontinuities in hyperbolic systems. On the other hand, when considering the numerical resolution of shockwaves using the FV method, a numerical width, different from the physical width, is enforced by the grid size. This leads to intermediate states which cannot be given a direct physical interpretation, as the shock width is not controlled by the physical dissipation mechanisms within the shock but only by the grid size  [Zaide,2012](http://www.danielzaide.com/PDF/zaide_thesis.pdf). Such states cannot be removed even when refining the grid, hence numerical schemes must be designed in a particular way to overcome such flaw. In Figure 2, the exact and the 3-state (with intermediate cell containing the shock) shock solution is depicted.
+The ***slowly-moving shock problem*** is related to nonlinearities of the Hugoniot curves, which in the case of the SWE, are found in those branches of the Hugoniot locus related to hydraulic jump-type solutions.  Generally, physical shockwaves have a finite width, determined by the physical dissipation processes taking place within the shock. This is the case of hydraulic jumps, whose width has to do with the turbulent transition between the supercritical, more energetic region and the subcritical region. Contrary to this, shocks are mathematically represented by pure discontinuities in hyperbolic systems. On the other hand, when considering the numerical resolution of shockwaves using the FV method, a numerical width, different from the physical width, is enforced by the grid size. This leads to intermediate states which cannot be given a direct physical interpretation, as the shock width is not controlled by the physical dissipation mechanisms within the shock but only by the grid size  [(Zaide,2012)](http://www.danielzaide.com/PDF/zaide_thesis.pdf). Such states cannot be removed ***even when refining the grid***, hence numerical schemes must be designed in a particular way to overcome such flaw. In Figure 2, the exact and the 3-state (with intermediate cell containing the shock) shock solution is depicted.
 
 <figure style="text-align: center;">
   <img src="github_site/anomaly1.png" width="80%" alt="my alt text"/>
@@ -33,3 +33,9 @@ In [Navas-Montilla, 2019](https://www.sciencedirect.com/science/article/pii/S002
   <img src="github_site/anomaly2.png" width="67%" alt="my alt text"/>
   <figcaption>Figure 4. Steady hydraulic jump around a solid body computed by the spike-reducing solver (top) and the traditional ARoe solver (bottom).</figcaption>
 </figure>
+
+
+#### The carbuncle
+
+When computing 2D strong shocks, such as hydraulic jumps, a numerical instability in the discrete shock profile may appear. This is known as the carbuncle and was first observed in simulations of air flow around blunt bodies by [Peery and Imlay ](https://arc.aiaa.org/doi/abs/10.2514/6.1988-2904). The study of the Carbuncle was initially developed in
+
