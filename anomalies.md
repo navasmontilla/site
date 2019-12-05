@@ -46,12 +46,12 @@ At present, the explanation for the carbuncle is still not clear. Previous liter
   <figcaption>Figure 5. Sketch of the intrinsic mechanisms behind the carbuncle. Adapted from <a href="https://www.researchgate.net/publication/263845832_The_Carbuncle_Phenomenon_in_Shallow_Water_Simulations">Bader and Kemm</a>.</figcaption>
 </figure>
 
-When solving the SWE, the carbuncle is likely to appear across strong shocks, such as hydraulic jumps. Figure 6 shows the rendered water surface elevation of a bow-shock-like hydraulic jump around a solid cylinder, computed by the Roe solver and the HLLS solver. It is observed that the carbuncle exhibits a completely unphysical water surface distribution, which even oscillates in time. 
+When solving the SWE, the carbuncle is likely to appear across strong shocks, such as hydraulic jumps. Figure 6 shows the rendered water surface elevation of a bow-shock-like hydraulic jump around a solid cylinder, computed by the Roe solver and the HLL solver. It is observed that the carbuncle exhibits a completely unphysical water surface distribution, which even oscillates in time. 
 
 
 <figure style="text-align: center;">
   <img src="github_site/montaje_carb.jpg" width="75%" alt="my alt text"/>
-  <figcaption>Figure 6. Rendered water surface elevation of a bow-shock-like hydraulic jump around a solid cylinder, computed by the Roe solver (bottom) and the HLLS solver (top) .</figcaption>
+  <figcaption>Figure 6. Rendered water surface elevation of a bow-shock-like hydraulic jump around a solid cylinder, computed by the Roe solver (bottom) and the HLL solver (top) .</figcaption>
 </figure>
 
 
