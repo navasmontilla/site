@@ -55,7 +55,7 @@ When solving the SWE, the carbuncle is likely to appear across strong shocks, su
 </figure>
 
 
-In [Navas-Montilla, 2019](https://www.sciencedirect.com/science/article/pii/S0021999118307496), the spike-reducing solver is enhanced using a wave-smearing technique in the resolution of the contact wave (increasing the numerical diffusion across it), which reduces the appearance of the Carbuncle when computing supercritical shocks. The numerical resolution of a hydraulic jump over a smoothly-varying bed by means of the traditional ARoe and HLLS solvers, as well as the spike-reducing carbuncle-free solvers, is presented in Figure 7.
+In [Navas-Montilla, 2019](https://www.sciencedirect.com/science/article/pii/S0021999118307496), the spike-reducing solver is enhanced using a wave-smearing technique in the resolution of the contact wave (increasing the numerical diffusion across it), which reduces the appearance of the Carbuncle when computing transcritical shocks. The numerical resolution of a hydraulic jump over a smoothly-varying bed by means of the traditional ARoe and HLLS solvers, as well as the spike-reducing carbuncle-free solvers, is presented in Figure 7.
 
 <figure style="text-align: center;">
   <img src="github_site/carbuncle2.png" width="75%" alt="my alt text"/>
