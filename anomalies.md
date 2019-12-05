@@ -50,7 +50,7 @@ When solving the SWE, the carbuncle is likely to appear across strong shocks, su
 
 
 <figure style="text-align: center;">
-  <img src="github_site/montaje_carb.png" width="70%" alt="my alt text"/>
+  <img src="github_site/montaje_carb.jpg" width="70%" alt="my alt text"/>
   <figcaption>Figure 6. Rendered water surface elevation of a bow-shock-like hydraulic jump around a solid cylinder, computed by the Roe solver (bottom) and the HLLS solver (top) .</figcaption>
 </figure>
 
