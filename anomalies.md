@@ -43,6 +43,7 @@ At present, the explanation for the carbuncle is still not clear. Previous liter
 
 <figure style="text-align: center;">
   <img src="github_site/carbuncle.png" width="80%" alt="my alt text"/>
-  <figcaption>Figure 5. Sketch of the intrinsic mechanisms behind the carbuncle. Adapted from [Bader and Kemm](https://www.researchgate.net/publication/263845832_The_Carbuncle_Phenomenon_in_Shallow_Water_Simulations).</figcaption>
+  <figcaption>Figure 5. Sketch of the intrinsic mechanisms behind the carbuncle. Adapted from <a href="https://www.researchgate.net/publication/263845832_The_Carbuncle_Phenomenon_in_Shallow_Water_Simulations">Bader and Kemm</a>.</figcaption>
 </figure>
 
+[BACK TO MAIN PAGE](https://github.com/navasmontilla/site)
