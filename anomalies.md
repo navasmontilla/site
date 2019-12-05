@@ -42,7 +42,7 @@ When computing 2D strong shocks, such as hydraulic jumps, a numerical instabilit
 At present, the explanation for the carbuncle is still not clear. Previous literature suggest that the occurence of the carbuncle has to do with the Cartesian-like representation of purely 2D shock profiles. A soft curvature in the analytical shock profile is represented by a jump of the discrete shock profile in one cell column. Moreover, an stability analysis of the solution suggest that the position of the shock is unstable and might jump by up to two cells in any direction. When such jump happens, a cross flow is triggered due to the presence of a discrete shock profile in the x direction, as depicted in Figure 5 (left). The cross flow generates a recirculation downstream, which enhances the spreading of the shock profile and eventually originates a carbuncle-like structure, as depicted in Figure 5 (right). Only when using a Riemann solver that adds sufficient numerical diffusion to the contact wave, the carbuncle does not appear (e.g. the HLL solver).
 
 <figure style="text-align: center;">
-  <img src="github_site/carbuncle.png" width="80%" alt="my alt text"/>
+  <img src="github_site/carbuncle.png" width="70%" alt="my alt text"/>
   <figcaption>Figure 5. Sketch of the intrinsic mechanisms behind the carbuncle. Adapted from <a href="https://www.researchgate.net/publication/263845832_The_Carbuncle_Phenomenon_in_Shallow_Water_Simulations">Bader and Kemm</a>.</figcaption>
 </figure>
 
