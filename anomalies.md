@@ -1,4 +1,4 @@
-The work herein shown is part of my Doctoral Thesis [Accurate simulation of shallow flows using arbitrary order ADER schemes and overcoming numerical shockwave anomalies](https://zaguan.unizar.es/record/70795?ln=en), presented at University of Zaragoza on the 27th April 2018. More details can be found in [Navas-Montilla, 2019](https://www.sciencedirect.com/science/article/pii/S0021999118307496) and  [Navas-Montilla, 2017](https://www.sciencedirect.com/science/article/pii/S0021999117302589). 
+The work herein shown is part of my Doctoral Thesis [Accurate simulation of shallow flows using arbitrary order ADER schemes and overcoming numerical shockwave anomalies](https://zaguan.unizar.es/record/70795?ln=en), presented at University of Zaragoza on the 27th April 2018. More details can be found in [Navas-Montilla, 2019](https://www.sciencedirect.com/science/article/pii/S0021999118307496) and  [Navas-Montilla, 2017](https://www.sciencedirect.com/science/article/pii/S0021999117302589) (and references therein, which are ommited below). 
 
 ### Numerical shockwave anomalies
 
@@ -44,6 +44,13 @@ At present, the explanation for the carbuncle is still not clear. Previous liter
 <figure style="text-align: center;">
   <img src="github_site/carbuncle.png" width="80%" alt="my alt text"/>
   <figcaption>Figure 5. Sketch of the intrinsic mechanisms behind the carbuncle. Adapted from <a href="https://www.researchgate.net/publication/263845832_The_Carbuncle_Phenomenon_in_Shallow_Water_Simulations">Bader and Kemm</a>.</figcaption>
+</figure>
+
+In [Navas-Montilla, 2019](https://www.sciencedirect.com/science/article/pii/S0021999118307496), the spike-reducing solver is enhanced using a wave-smearing technique in the resolution of the contact wave (increasing the numerical diffusion across it), which reduces the appearance of the Carbuncle when computing supercritical shocks. The numerical resolution of a hydraulic jump over a smoothly-varying bed by means of the traditional ARoe and HLLS solvers, as well as the spike-reducing carbuncle-free solvers, is presented in Figure 6.
+
+<figure style="text-align: center;">
+  <img src="github_site/carbuncle2.png" width="70%" alt="my alt text"/>
+  <figcaption>Figure 6. Resolution of a hydraulic jump over a smoothly-varying bed, computed by different solvers.</figcaption>
 </figure>
 
 [BACK TO MAIN PAGE](https://github.com/navasmontilla/site)
