@@ -1,4 +1,4 @@
-The work herein shown is part of my Doctoral Thesis [Accurate simulation of shallow flows using arbitrary order ADER schemes and overcoming numerical shockwave anomalies](https://zaguan.unizar.es/record/70795?ln=en), presented at University of Zaragoza on the 27th April 2018. 
+The work herein shown is part of my Doctoral Thesis [Accurate simulation of shallow flows using arbitrary order ADER schemes and overcoming numerical shockwave anomalies](https://zaguan.unizar.es/record/70795?ln=en), presented at University of Zaragoza on the 27th April 2018. More details can be found in [Navas-Montilla, 2019](https://www.sciencedirect.com/science/article/pii/S0021999118307496) and  [Navas-Montilla, 2017](https://www.sciencedirect.com/science/article/pii/S0021999117302589). 
 
 ### Numerical shockwave anomalies
 
@@ -18,11 +18,15 @@ The slowly-moving shock problem is related to nonlinearities of the Hugoniot cur
 
 <figure style="text-align: center;">
   <img src="github_site/anomaly1.png" width="80%" alt="my alt text"/>
-  <figcaption>Figure 1. Exact and numerical representation of a shock wave for the SWE.</figcaption>
+  <figcaption>Figure 2. Exact and numerical representation of a shock wave for the SWE.</figcaption>
 </figure>
 
+In [Navas-Montilla, 2017](https://www.sciencedirect.com/science/article/pii/S0021999117302589) a modification of the traditional ARoe solver, using the flux-extrapolation technique (called flux function A) presented by Dr. Daniel W. Zaide in [his Doctoral Thesis](http://www.danielzaide.com/PDF/zaide_thesis.pdf), is proposed. This novel solver, which represents the extension of the method by D.W. Zaide for those problems with source terms, is able to provide a significant reduction of the spurious spike in presence of hydraulic jumps. In [Navas-Montilla, 2019](https://www.sciencedirect.com/science/article/pii/S0021999118307496), this solver was extended to 2D and improved to completely eliminate the spike in steady solutions.
 
-Such solvers are motivated by the flux-extrapolation techniques presented by Dr. Daniel W. Zaide in [his Doctoral Thesis](http://www.danielzaide.com/PDF/zaide_thesis.pdf)
+Figure 3 shows a space-time representation of a slowly-moving hydraulic jump computed by the traditional Roe method and the proposed spike-reducing solver. It is evidenced that the spike in the discharge is successfully reduced.
 
-
+<figure style="text-align: center;">
+  <img src="github_site/anomaly4.png" width="80%" alt="my alt text"/>
+  <figcaption>Figure 2. Space-time representation of a slowly-moving hydraulic jump when using the traditional Roe method and the proposed spike-reducing solver.</figcaption>
+</figure>
 
