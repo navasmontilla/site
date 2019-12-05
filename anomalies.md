@@ -11,7 +11,7 @@ The slowly-moving shock anomaly was first investigated by Roberts, who defined i
 
 <figure style="text-align: center;">
   <img src="github_site/anomaly3.png" width="80%" alt="my alt text"/>
-  <figcaption>Figure 1. Slowly-moving shock anomaly.</figcaption>
+  <figcaption>Figure 1. Slowly-moving shock anomaly. Space-time representation of the discharge across a hydraulic jump, using the SWE.</figcaption>
 </figure>
 
 The slowly-moving shock problem is related to nonlinearities of the Hugoniot curves, which in the case of the SWE, are found in those branches of the Hugoniot locus related to hydraulic jump-type solutions.  Generally, physical shockwaves have a finite width, determined by the physical dissipation processes taking place within the shock. This is the case of hydraulic jumps, whose width has to do with the turbulent transition between the supercritical, more energetic region and the subcritical region. Contrary to this, shocks are mathematically represented by pure discontinuities in hyperbolic systems. On the other hand, when considering the numerical resolution of shockwaves using the FV method, a numerical width, different from the physical width, is enforced by the grid size. This leads to intermediate states which cannot be given a direct physical interpretation, as the shock width is not controlled by the physical dissipation mechanisms within the shock but only by the grid size. Such states cannot be removed even when refining the grid, hence numerical schemes must be designed in a particular way to overcome such flaw. In Figure 2, the exact and the 3-state (with intermediate cell containing the shock) shock solution is depicted.
@@ -21,12 +21,16 @@ The slowly-moving shock problem is related to nonlinearities of the Hugoniot cur
   <figcaption>Figure 2. Exact and numerical representation of a shock wave for the SWE.</figcaption>
 </figure>
 
-In [Navas-Montilla, 2017](https://www.sciencedirect.com/science/article/pii/S0021999117302589) a modification of the traditional ARoe solver, using the flux-extrapolation technique (called flux function A) presented by Dr. Daniel W. Zaide in [his Doctoral Thesis](http://www.danielzaide.com/PDF/zaide_thesis.pdf), is proposed. This novel solver, which represents the extension of the method by D.W. Zaide for those problems with source terms, is able to provide a significant reduction of the spurious spike in presence of hydraulic jumps. In [Navas-Montilla, 2019](https://www.sciencedirect.com/science/article/pii/S0021999118307496), this solver was extended to 2D and improved to completely eliminate the spike in steady solutions.
-
-Figure 3 shows a space-time representation of a slowly-moving hydraulic jump computed by the traditional Roe method and the proposed spike-reducing solver. It is evidenced that the spike in the discharge is successfully reduced.
+In [Navas-Montilla, 2017](https://www.sciencedirect.com/science/article/pii/S0021999117302589) a modification of the traditional ARoe solver, using the flux-extrapolation technique (called flux function A) presented by Dr. Daniel W. Zaide in [his Doctoral Thesis](http://www.danielzaide.com/PDF/zaide_thesis.pdf), is proposed. This novel solver, which represents the extension of the method by D.W. Zaide for those problems with source terms, is able to provide a significant reduction of the spurious spike in presence of hydraulic jumps. Figure 3 shows a space-time representation of a slowly-moving hydraulic jump computed by the traditional Roe method and the proposed spike-reducing solver. It is evidenced that the spike in the discharge is successfully reduced.
 
 <figure style="text-align: center;">
   <img src="github_site/anomaly4.png" width="80%" alt="my alt text"/>
-  <figcaption>Figure 2. Space-time representation of a slowly-moving hydraulic jump when using the traditional Roe method and the proposed spike-reducing solver.</figcaption>
+  <figcaption>Figure 3. Space-time representation of a slowly-moving hydraulic jump when using the traditional Roe method and the proposed spike-reducing solver.</figcaption>
 </figure>
 
+In [Navas-Montilla, 2019](https://www.sciencedirect.com/science/article/pii/S0021999118307496), this solver was extended to 2D and improved to completely eliminate the spike in steady solutions.Figure 4 shows the numerical resolution of a 2D hydraulic jump in the form of a bow-shock around a solid body. It is observed that only when using the spike-reducing solver, the unphysical values along the shock contour are eliminated.
+
+<figure style="text-align: center;">
+  <img src="github_site/anomaly2.png" width="80%" alt="my alt text"/>
+  <figcaption>Figure 4. Steady hydraulic jump around a solid body computed by the spike-reducing solver (top) and the traditional ARoe solver.</figcaption>
+</figure>
