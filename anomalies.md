@@ -31,6 +31,6 @@ In [Navas-Montilla, 2017](https://www.sciencedirect.com/science/article/pii/S002
 In [Navas-Montilla, 2019](https://www.sciencedirect.com/science/article/pii/S0021999118307496), this solver was extended to 2D and improved to completely eliminate the spike in steady solutions.Figure 4 shows the numerical resolution of a 2D hydraulic jump in the form of a bow-shock around a solid body. It is observed that only when using the spike-reducing solver, the unphysical values along the shock contour are eliminated.
 
 <figure style="text-align: center;">
-  <img src="github_site/anomaly2.png" width="60%" alt="my alt text"/>
-  <figcaption>Figure 4. Steady hydraulic jump around a solid body computed by the spike-reducing solver (top) and the traditional ARoe solver.</figcaption>
+  <img src="github_site/anomaly2.png" width="67%" alt="my alt text"/>
+  <figcaption>Figure 4. Steady hydraulic jump around a solid body computed by the spike-reducing solver (top) and the traditional ARoe solver (bottom).</figcaption>
 </figure>
