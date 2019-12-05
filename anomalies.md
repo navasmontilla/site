@@ -53,4 +53,4 @@ In [Navas-Montilla, 2019](https://www.sciencedirect.com/science/article/pii/S002
   <figcaption>Figure 6. Resolution of a hydraulic jump over a smoothly-varying bed, computed by different solvers.</figcaption>
 </figure>
 
-[BACK TO MAIN PAGE](https://github.com/navasmontilla/site)
+[BACK TO MAIN PAGE](https://navasmontilla.github.io/site)
