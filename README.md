@@ -19,7 +19,7 @@ Nowadays, the current trend is to design accurate and efficient schemes by means
 
 <figure style="text-align: center;">
   <img src="github_site/kh1.png" width="67%" alt="my alt text"/>
-  <figcaption>Figure 2. Numerical solution of a Kelvin-Helmholtz instability for Euler equations using a 1-st order and 5-th order WENO-RK scheme.</figcaption>
+  <figcaption>Figure 2. Numerical solution of a Kelvin-Helmholtz instability for Euler equations using a 5-th order WENO-RK scheme.</figcaption>
 </figure>
 
 <figure style="text-align: center;">
