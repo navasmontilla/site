@@ -128,7 +128,7 @@ Detailed results of the application of the proposed schemes to the simulation of
 
 
 <figure style="text-align: center;">
-  <img src="github_site/seiche9.png" width="70%" alt="my alt text"/>
+  <img src="github_site/seiche9.PNG" width="70%" alt="my alt text"/>
   <figcaption>Figure 13. Configuration of a channel with lateral cavities.</figcaption>
 </figure>
 
