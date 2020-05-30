@@ -6,7 +6,7 @@
 I developed a cloud-based flow simulation tool with educational purposes. This is freely accessible at [Bloodflowmodel.net](https://www.bloodflowmodel.net). This work was funded by Gobierno de Aragon-FEDER (T32_17R. Mecánica de Fluidos Computacional) in the framework of the educational innovation project PIIDUZ_19_363 of the University of Zaragoza. This website offers a new user-friendly graphical user interface that allows the user to experiment with blood flow simulation. 
 
 <figure style="text-align: center;">
-  <img src="github_site/blood.png" width="90%" alt="my alt text"/>
+  <img src="github_site/blood.PNG" width="90%" alt="my alt text"/>
   <figcaption>Figure 1. Snapshot of Bloodflowmodel main menu.</figcaption>
 </figure>
 
