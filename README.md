@@ -38,7 +38,7 @@ On the other hand, the presence of source terms in the equations is an issue whi
 
 - [Evaluation of the spectral properties of numerical schemes](test.md)
 
-- [Computational hemodynamics](test.md)
+- [Computational hemodynamics](hemodynamics.md)
 
 - [Augmented resolution of non-conservative systems and hyperbolized problems](test.md)
 
