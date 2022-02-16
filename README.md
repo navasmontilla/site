@@ -27,7 +27,7 @@ The current trend is to design accurate and efficient schemes by means of a comb
 
 
 <figure style="text-align: center;">
-  <img src="github_site/equistates.png" alt="my alt text"/>
+  <img src="github_site/whitebackpng2.png" alt="my alt text"/>
   <figcaption>Figure 3. Relevant equilibrium states for the SWE.</figcaption>
 </figure>
 
