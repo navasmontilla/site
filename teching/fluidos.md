@@ -1,6 +1,6 @@
 ## Fluid mechanics 
 
-The course is taught in spanish. The syllabus is presented below:
+The course is taught in spanish, for the degree of Electronics Engineering (University of Zaragoza). The syllabus is presented below:
 
 - Tema 1: Fluidos y fluir
 - Tema 2: [Ecuaciones fundamentales](https://github.com/navasmontilla/site/blob/master/teching/2.Ecuaciones%20fundamentales.pdf)
