@@ -27,11 +27,11 @@ The current trend is to design accurate and efficient schemes by means of a comb
 
 
 
-- [Accurate simulation of free surface shallow flows](swe_thesis.md) (results of my PhD thesis)
+- [Accurate simulation of free surface shallow flows](swe_thesis.md) 
 
 - [Simulation of resonant flows in cavities](test.md)
 
-- [Overcoming numerical shockwave anomalies](anomalies.md) (results of my PhD thesis)
+- [Overcoming numerical shockwave anomalies](anomalies.md) 
 
 - [Evaluation of the spectral properties of numerical schemes](test.md)
 
