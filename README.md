@@ -21,7 +21,7 @@ Nowadays, the combination of modern supercomputers with cutting-edge simulation 
 The current trend is to design accurate and efficient schemes by means of a combination of: (a) very high order numerical schemes (e.g. WENO, ENO, DG reconstructions with ADER and RK integrators), which are more efficient than low order schemes (see Fig. 1), (b) adaptive mesh refinement techniques and other sophisticated meshing algorithms, (c) efficient parallel implementations for high performance computing (OpenMP, MPI, CUDA and OpenACC, among others) and (d) machine learning and big-data approaches. 
 
 <figure style="text-align: center;">
-  <img src="github_site/whitebackpng2.png" width=95%" alt="my alt text"/>
+  <img src="github_site/whitebackpng2.png" width=92%" alt="my alt text"/>
   <figcaption>Figure 1. Numerical simulation of a channel with lateral cavities with a 3-rd order WENO-ADER shallow water model.</figcaption>
 </figure>
 
