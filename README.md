@@ -37,7 +37,7 @@ The current trend is to design accurate and efficient schemes by means of a comb
 
 - [Computational hemodynamics](hemodynamics.md)
 
-- [Hyperbolic hydrologt](test.md)
+- [Hyperbolic hydrology](test.md)
 
 
 ## Contact
