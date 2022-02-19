@@ -14,7 +14,7 @@ I am Assistant professor in the Department of Science and Technology of Material
 - [Thermodynamics and heat transfer](teaching/termodinamica.md) (2021-present), at University of Zaragoza
 - Solid mechanics (2019-2021), at Centro Universitario de la Defensa
 
-I have also supervised several degree projects and master theses. For prospective students, you can find the topics offered here: [temas TFG/TFM](teaching/tgf.md)
+I have also supervised several degree projects and master theses. For prospective students, you can find the topics offered here: [¿interesado en hacer tu TFG/TFM? aquí enconrarás algunos temas propuestos](teaching/tgf.md).
 
 ## Research lines
 
