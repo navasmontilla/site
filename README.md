@@ -14,6 +14,8 @@ I am Assistant professor in the Department of Science and Technology of Material
 - Thermodynamics and heat transfer (2021-present), at University of Zaragoza
 - Solid mechanics (2019-2021), at Centro Universitario de la Defensa
 
+I have also supervised several degree projects and master theses.
+
 ## Research lines
 
 Nowadays, the combination of modern supercomputers with cutting-edge simulation tools allows to solve very complex problems of technological and scientific interest and, what is more important, it allows to be predictive. The numerical simulation of environmental events, such as atmospheric, oceanic or surface water flows, has come to a point where trustworthy predictions can be done at an affordable cost, providing quite a realistic picture of the potential threats linked to those events. On the other hand, the rocketing technological growth of the manufacturing industry is demanding the study and resolution of new problems that can be addressed through the same approach.
