@@ -2,7 +2,7 @@
 
 The course is taught in spanish at the degree of Electronic Engineering (University of Zaragoza). The syllabus is presented below:
 
-# Syllabus
+## Syllabus
 
 The course is organized in the following 6 topics:
 
@@ -13,7 +13,7 @@ The course is organized in the following 6 topics:
 - Tema 5: Instalaciones de fluidos
 - Tema 6: Capa límite y aerodinámica
 
-# Other materials
+## Other materials
 
 I have created Jupyter Notebooks to serve as interactive teaching materials, both during classes and for the students to work at home. Here is an example below:
 
