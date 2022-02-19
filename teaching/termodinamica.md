@@ -23,4 +23,4 @@ Parte 2: Fundamentos de transmisión de calor
 
 I have created Jupyter Notebooks to serve as interactive teaching materials, both during classes and for the students to work at home. Here is an example below:
 
-[Jupyter for thermodynamics](https://github.com/navasmontilla/site/blob/master/teaching/ejercicios_termo.ipynb)
+[Jupyter for thermodynamics](https://github.com/navasmontilla/site/blob/master/teaching/Ejercicios_termo.ipynb)
