@@ -38,6 +38,11 @@ The current trend is to design accurate and efficient schemes by means of a comb
 - [Hyperbolic hydrology](test.md)
 
 
+## Funded projects as PI
+
+- [Numerical characterization of seiche waves energy potential in river bank lateral embayments](project1.md) (Centro Universitario de la Defensa, Ministerio de Defensa)
+- [Wildfire modelling](project2.md) (Ayudas a la investigación, Fundación Antonio Gargallo)
+
 ## Contact
 
 For more information, please contact me: anavas [at] unizar.es
