@@ -11,7 +11,7 @@ I am Assistant professor in the Department of Science and Technology of Material
 ## Teaching
 
 - [Fluid Mechanics](teaching/fluidos.md) (2021-present), at University of Zaragoza
-- Thermodynamics and heat transfer (2021-present), at University of Zaragoza
+- [Thermodynamics and heat transfer](teaching/termodinamica.md) (2021-present), at University of Zaragoza
 - Solid mechanics (2019-2021), at Centro Universitario de la Defensa
 
 I have also supervised several degree projects and master theses. For prospective students, you can find the topics offered here: [temas TFG/TFM](teaching/tgf.md)
