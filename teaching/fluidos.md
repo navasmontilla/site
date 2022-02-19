@@ -17,4 +17,4 @@ The course is organized in the following 6 topics:
 
 I have created Jupyter Notebooks to serve as interactive teaching materials, both during classes and for the students to work at home. Here is an example below:
 
-[Streamlines, pathlines and streaklines in Jupyter](https://github.com/navasmontilla/site/blob/master/teaching/C12_lineas (1).ipynb)
+[Streamlines, pathlines and streaklines in Jupyter](https://github.com/navasmontilla/site/blob/master/teaching/C12_lin.ipynb)
