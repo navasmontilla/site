@@ -27,7 +27,12 @@ Lateral embayments or cavities built in the river banks are used to accomplish a
 
 ## Outcome
 
-- [Juez, J., Navas-Montilla, A., Numerical characterization of seiche waves energy potential in river bank lateral embayments, **Renewable Energy**, Volume 186, 2022, Pages 143-156.](https://doi.org/10.1016/j.renene.2021.12.125)
-- [Navas-Montilla, A., Juez, C., & Garijo, N. (2021, April). Energy estimation of resonant waves in channels with lateral cavities. In EGU General Assembly Conference Abstracts (pp. EGU21-12744).](https://ui.adsabs.harvard.edu/link_gateway/2021EGUGA..2312744N/doi:10.5194/egusphere-egu21-12744)
+### Publications in high-impact factor international journals
+
+- Publication in **Renewable Energy** (Impact factor: 8.001, Q1): [Juez, J., Navas-Montilla, A., Numerical characterization of seiche waves energy potential in river bank lateral embayments, Renewable Energy, Volume 186, 2022, Pages 143-156.](https://doi.org/10.1016/j.renene.2021.12.125)
+
+### Congress participation
+
+- Oral presentation (online) at EGU2021: [Navas-Montilla, A., Juez, C., & Garijo, N. (2021, April). Energy estimation of resonant waves in channels with lateral cavities. In EGU General Assembly Conference Abstracts (pp. EGU21-12744).](https://ui.adsabs.harvard.edu/link_gateway/2021EGUGA..2312744N/doi:10.5194/egusphere-egu21-12744)
 
 
