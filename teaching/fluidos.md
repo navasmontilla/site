@@ -10,11 +10,11 @@ The course is organized in the following 6 topics:
 - Tema 2: [Ecuaciones fundamentales](https://github.com/navasmontilla/site/blob/master/teaching/2.Ecuaciones_fundamentales.pdf)
 - Tema 3: Flujos canónicos
     - [Fluidostatica](https://github.com/navasmontilla/site/blob/master/teaching/3.Flujos_canonicos_I.pdf)
-    - [Fluidostatica](https://github.com/navasmontilla/site/blob/master/teaching/3.Flujos_canonicos_I.pdf)
-    - [Fluidostatica](https://github.com/navasmontilla/site/blob/master/teaching/3.Flujos_canonicos_I.pdf) 
-- Tema 4: Análisis dimensional y semejanza
-- Tema 5: Instalaciones de fluidos
-- Tema 6: Capa límite y aerodinámica
+    - [Flujo ideal](https://github.com/navasmontilla/site/blob/master/teaching/3.Flujos_canonicos_II.pdf)
+    - [Flujo viscoso 1D](https://github.com/navasmontilla/site/blob/master/teaching/3.Flujos_canonicos_III.pdf) 
+- Tema 4: [Análisis dimensional y semejanza](https://github.com/navasmontilla/site/blob/master/teaching/4.Analisis_dimensional.pdf) 
+- Tema 5: [Instalaciones de fluidos](https://github.com/navasmontilla/site/blob/master/teaching/5.Instalaciones_II.pdf) 
+- Tema 6: [Capa límite y aerodinámica](https://github.com/navasmontilla/site/blob/master/teaching/6.AeroCL.pdf) 
 
 ## Other materials
 
