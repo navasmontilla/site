@@ -6,9 +6,12 @@ The course is taught in spanish at the degree of Electronic Engineering (Univers
 
 The course is organized in the following 6 topics:
 
-- Tema 1: [Fluidos y fluir](https://github.com/navasmontilla/site/blob/master/teaching/1.Fluidos y fluir.pdf) 
+- Tema 1: [Fluidos y fluir](https://github.com/navasmontilla/site/blob/master/teaching/1.Fluidos_fluir.pdf) 
 - Tema 2: [Ecuaciones fundamentales](https://github.com/navasmontilla/site/blob/master/teaching/2.Ecuaciones_fundamentales.pdf)
 - Tema 3: Flujos canónicos
+    - [Fluidostatica](https://github.com/navasmontilla/site/blob/master/teaching/3.Flujos_canonicos_I.pdf)
+    - [Fluidostatica](https://github.com/navasmontilla/site/blob/master/teaching/3.Flujos_canonicos_I.pdf)
+    - [Fluidostatica](https://github.com/navasmontilla/site/blob/master/teaching/3.Flujos_canonicos_I.pdf) 
 - Tema 4: Análisis dimensional y semejanza
 - Tema 5: Instalaciones de fluidos
 - Tema 6: Capa límite y aerodinámica
