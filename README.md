@@ -14,7 +14,7 @@ I am Assistant professor in the Department of Science and Technology of Material
 - [Thermodynamics and heat transfer](teaching/termodinamica.md) (2021-present), at University of Zaragoza
 - Solid mechanics (2019-2021), at Centro Universitario de la Defensa
 
-I have also supervised several degree projects and master theses. For prospective students, you can find the topics offered [here](teaching/tgf.md).
+I have also supervised several degree projects and master theses. For prospective students, you can find the topics offered [here](test.md).
 
 ## Research lines
 
@@ -42,10 +42,17 @@ The current trend is to design accurate and efficient schemes by means of a comb
 ## Funded projects as PI
 
 - [Numerical characterization of seiche waves energy potential in river bank lateral embayments](project1.md) (Centro Universitario de la Defensa, Ministerio de Defensa)
-- [Desarrollo de un modelo de simulación de incendios forestales con aplicación a la geografía turolense](project2.md) (Ayudas a la investigación, Fundación Antonio Gargallo)
-- [MEJORA DE MODELOS MATEMÁTICOS PARA LA RESOLUCIÓN DE FLUJOS CONVECTIVOS CON APLICACIÓN A LA SIMULACIÓN DE INCENDIOS FORESTALES](project2.md) (Ayudas a la investigación, Fundación Antonio Gargallo)
-- [PID2022-141051NA-I00: SIMULATION AND DYNAMICAL ANALYSIS OF WILDFIRE PROPAGATION USING HIGH RESOLUTION COMPUTATIONAL TOOLS (FIREDYN)](project2.md) (Ministerio de Ciencia e Innovación)
+- [Desarrollo de un modelo de simulación de incendios forestales con aplicación a la geografía turolense](test.md) (Ayudas a la investigación, Fundación Antonio Gargallo)
+- [MEJORA DE MODELOS MATEMÁTICOS PARA LA RESOLUCIÓN DE FLUJOS CONVECTIVOS CON APLICACIÓN A LA SIMULACIÓN DE INCENDIOS FORESTALES](test.md) (Ayudas a la investigación, Fundación Antonio Gargallo)
+- [PID2022-141051NA-I00: SIMULATION AND DYNAMICAL ANALYSIS OF WILDFIRE PROPAGATION USING HIGH RESOLUTION COMPUTATIONAL TOOLS (FIREDYN)](test.md) (Ministerio de Ciencia e Innovación)
 
 ## Contact
 
 For more information, please contact me: anavas [at] unizar.es
+
+Adrián Navas Montilla
+Dept. of Science and Technology of Materials and Fluids
+Fluid Dynamics Technologies Group 
+Teruel Engineering Faculty - University of Zaragoza
+C/Atarazana, nº2, 44003 Teruel, Spain
+
