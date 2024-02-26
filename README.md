@@ -51,8 +51,12 @@ The current trend is to design accurate and efficient schemes by means of a comb
 For more information, please contact me: anavas [at] unizar.es
 
 Adrián Navas Montilla
+
 Dept. of Science and Technology of Materials and Fluids
+
 Fluid Dynamics Technologies Group 
+
 Teruel Engineering Faculty - University of Zaragoza
+
 C/Atarazana, nº2, 44003 Teruel, Spain
 
