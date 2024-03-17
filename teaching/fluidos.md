@@ -24,7 +24,7 @@ During the course, the students will complete 5 laboratory sessions:
 - LAB2: Analysis of a wind turbine with Python
 - LAB3: Measurement of the force produced by a water jet
 - LAB4: Experimental analysis of pump characteristics
-- LAB5: Airfoil aerodynamics in a wind tunnel ([download](https://github.com/navasmontilla/site/blob/master/teaching/PRACTICA4_mf.pdf) )
+- LAB5: [Airfoil aerodynamics in a wind tunnel](https://github.com/navasmontilla/site/blob/master/teaching/PRACTICA4_mf.pdf) 
 
 
 ## Other materials
