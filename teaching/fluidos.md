@@ -26,7 +26,7 @@ During the course, the students will complete 5 laboratory sessions:
 - LAB4: Experimental analysis of pump characteristics
 - LAB5: [Airfoil aerodynamics in a wind tunnel](https://github.com/navasmontilla/site/blob/master/teaching/PRACTICA4_mf.pdf) 
 
-### Course Project
+## Course Project
 
 The course project involves the analysis using Python of some realistic application by means of a suitable model. An example below:
 
