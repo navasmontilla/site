@@ -18,6 +18,16 @@ The course is organized in the following 6 topics:
 
 ## Other materials
 
+### Interactive Fluid Mechanics Book
+
+[https://mdfi.000webhostapp.com](https://mdfi.000webhostapp.com/intro.html)
+
+### Jupyter Notebooks for classes
 I have created Jupyter Notebooks to serve as interactive teaching materials, both during classes and for the students to work at home. Here is an example below:
 
 [Streamlines, pathlines and streaklines in Jupyter](https://nbviewer.org/github/navasmontilla/site/blob/master/teaching/C12_lin.ipynb)
+
+### Example of Home Assignment
+
+
+[Computational modelling of a Flettner Rotor](https://nbviewer.org/github/navasmontilla/site/blob/master/teaching/enunciadoTrabajoMF2324.ipynb)
