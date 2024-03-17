@@ -32,4 +32,4 @@ I have created Jupyter Notebooks to serve as interactive teaching materials, bot
 
 [Computational modelling of a Flettner Rotor](https://nbviewer.org/github/navasmontilla/site/blob/master/teaching/enunciadoTrabajoMF2324.ipynb)
 
-Inspired by: *"AeroPython", Lorena A. Barba, Olivier Mesnard. (April 2014). 10.6084/m9.figshare.1004727 *
+Inspired by: "AeroPython", Lorena A. Barba, Olivier Mesnard. (April 2014). 10.6084/m9.figshare.1004727 
