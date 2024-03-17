@@ -26,6 +26,14 @@ During the course, the students will complete 5 laboratory sessions:
 - LAB4: Experimental analysis of pump characteristics
 - LAB5: [Airfoil aerodynamics in a wind tunnel](https://github.com/navasmontilla/site/blob/master/teaching/PRACTICA4_mf.pdf) 
 
+### Course Project
+
+The course project involves the analysis using Python of some realistic application by means of a suitable model. An example below:
+
+[Computational modelling of a Flettner Rotor](https://nbviewer.org/github/navasmontilla/site/blob/master/teaching/enunciadoTrabajoMF2324.ipynb)
+
+Inspired by: "AeroPython", Lorena A. Barba, Olivier Mesnard. (April 2014). 10.6084/m9.figshare.1004727 
+
 
 ## Other materials
 
@@ -40,9 +48,3 @@ I have created Jupyter Notebooks to serve as interactive teaching materials, bot
 
 [Example: Streamlines, pathlines and streaklines in Jupyter](https://nbviewer.org/github/navasmontilla/site/blob/master/teaching/C12_lin.ipynb)
 
-### Example of Course Project
-
-
-[Computational modelling of a Flettner Rotor](https://nbviewer.org/github/navasmontilla/site/blob/master/teaching/enunciadoTrabajoMF2324.ipynb)
-
-Inspired by: "AeroPython", Lorena A. Barba, Olivier Mesnard. (April 2014). 10.6084/m9.figshare.1004727 
