@@ -20,7 +20,7 @@ The course is organized in the following 6 topics:
 
 During the course, the students will complete 5 laboratory sessions:
 
-- LAB1: Flow visualization with Python
+- LAB1: [Flow kinematics and visualization with Python](https://nbviewer.org/github/navasmontilla/site/blob/master/teaching/PRACTICA1_mf.ipynb) 
 - LAB2: Analysis of a wind turbine with Python
 - LAB3: Measurement of the force produced by a water jet
 - LAB4: Experimental analysis of pump characteristics
