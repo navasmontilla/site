@@ -19,8 +19,18 @@ Parte 2: Fundamentos de transmisión de calor
 - Tema 8: Conducción transitoria
 - Tema 9: Convección del calor
 
+## Labs
+
+During the course, the students will complete 5 laboratory sessions:
+
+- LAB1: Computing thermodynamic processes using Python and Pyromat
+- LAB2: [Introduction to the Finite Difference Method for heat transfer](https://nbviewer.org/github/navasmontilla/site/blob/master/teaching/PRACTICA2_tt.ipynb) 
+- LAB3: Experimental study of the dissipation of heat in a bar
+- LAB4: [Numerical study of the dissipation of heat in a bar](https://nbviewer.org/github/navasmontilla/site/blob/master/teaching/PRACTICA4_tt.ipynb) 
+
+
 ## Other materials
 
 I have created Jupyter Notebooks to serve as interactive teaching materials, both during classes and for the students to work at home. Here is an example below:
 
-[Jupyter for thermodynamics](https://github.com/navasmontilla/site/blob/master/teaching/Ejercicios_termo.ipynb)
+[Jupyter for thermodynamics](https://nbviewer.org/github/navasmontilla/site/blob/master/teaching/Ejercicios_termo.ipynb)
