@@ -24,9 +24,9 @@ Parte 2: Fundamentos de transmisión de calor
 During the course, the students will complete 5 laboratory sessions:
 
 - LAB1: Computing thermodynamic processes using Python and Pyromat
-- LAB2: [Introduction to the Finite Difference Method for heat transfer](https://nbviewer.org/github/navasmontilla/site/blob/master/teaching/PRACTICA2_tt.ipynb) 
+- LAB2: [Introduction to the Finite Difference Method for heat transfer](https://github.com/navasmontilla/site/blob/master/teaching/PRACTICA2_tt.ipynb) 
 - LAB3: Experimental study of the dissipation of heat in a bar
-- LAB4: [Numerical study of the dissipation of heat in a bar](https://nbviewer.org/github/navasmontilla/site/blob/master/teaching/PRACTICA4_tt.ipynb) 
+- LAB4: [Numerical study of the dissipation of heat in a bar](https://github.com/navasmontilla/site/blob/master/teaching/PRACTICA4_tt.ipynb) 
 
 
 ## Other materials
