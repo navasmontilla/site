@@ -11,7 +11,7 @@ Parte 1: Termodinámica técnica
 - Tema 2: Primer principio en sistemas cerrados
 - Tema 3: Propiedades termodinámicas
 - Tema 4: Primer principio en sistemas abiertos
-- Tema 5: Segundo principio y ciclos termodinámicos
+- Tema 5: [Segundo principio](https://github.com/navasmontilla/site/blob/master/teaching/5.Segundo_principio_Parte1.pdf)  y [ciclos termodinámicos](https://github.com/navasmontilla/site/blob/master/teaching/5.Segundo_principio_Parte2.pdf)
 
 Parte 2: Fundamentos de transmisión de calor
 - Tema 6: Fundamentos de la conducción de calor
