@@ -1,4 +1,4 @@
-## Numerical characterization of seiche waves energy potential in river bank lateral embayments
+## SIMULATION AND DYNAMICAL ANALYSIS OF WILDFIRE PROPAGATION USING HIGH RESOLUTION COMPUTATIONAL TOOLS (FIREDYN)
 
 Funding institution: Ministerio de Ciencia, Innovación y Universidades (Agencia Estatal de Investigación) - Cofinanciado Unión Europea
 
@@ -25,20 +25,40 @@ This is a proposal for a non-oriented research project in the area of mathematic
 
 ## Objectives
 
-- Development of a methodology for the estimation of the energy content of seiche waves using water surface data.
-- Application of a high-resolution shallow water solver to reproduce the resonant flow in a channel with lateral cavities in a wide a range of hydraulic conditions of physical relevance.
-- Assesment of the energy content of the seiche in the cases reproduced in the previous points.
-- Generation of 2D seiche amplitude and energy maps.
+The main objective of this project is the development of mathematical and computational tools for the analysis and simulation of wildfire events that improve the understanding of the non-linear dynamical processes involved both in the surface propagation and in the atmospheric dynamics, throwing light to their interaction in a context of climate change. We will consider physically based mathematical models, based on systems partial differential equations, which describe the evolution in space and time of the concentration and temperature of biomass, as well as the air velocity, pressure, density and temperature. To achieve the main objective stated above, we have identified the following specific objectives:
+- Mathematical modelling of wildfires
+- Numerical simulation of wildfires
+- Dynamical analysis of wildfires and study of the interplay between the main drivers of the spread
 
 
 ## Outcome
 
 ### Publications in high-impact factor international journals
+- Navas-Montilla, A., Reisch, C., Diaz, P., & Özgen-Xian, I. (2024). Modeling wildfire dynamics through a physics-based approach incorporating fuel moisture and landscape heterogeneity. arXiv preprint [arXiv:2412.04517](https://arxiv.org/abs/2412.04517). Under review.
+- Navas-Montilla, A., Guallart, J., Solán-Fustero, P., & García-Navarro, P. (2024). Exploring the potential of TENO and WENO schemes for simulating under-resolved turbulent flows in the atmosphere using Euler equations. Computers & Fluids, 280, 106349. Open Access:  [https://doi.org/10.1016/j.compfluid.2024.106349](https://doi.org/10.1016/j.compfluid.2024.106349)
+- Reisch, C., Navas-Montilla, A., & Özgen-Xian, I. (2024). Analytical and numerical insights into wildfire dynamics: Exploring the advection–diffusion–reaction model. Computers & Mathematics with Applications, 158, 179-198. Open Access: [https://doi.org/10.1016/j.camwa.2024.01.024](https://doi.org/10.1016/j.camwa.2024.01.024)
 
-- Publication in **Renewable Energy** (Impact factor: 8.001, Q1): [Juez, J., Navas-Montilla, A., Numerical characterization of seiche waves energy potential in river bank lateral embayments, Renewable Energy, Volume 186, 2022, Pages 143-156.](https://doi.org/10.1016/j.renene.2021.12.125)
+### Open source software and data
+
+- Navas-Montilla, A, CÆLUM: An academic High-Order Finite-Volume solver for the compressible Euler equations and related models. Github repository: [https://github.com/navasmontilla/CAELUM](https://github.com/navasmontilla/CAELUM). 
+
+- Research data: [https://github.com/navasmontilla/WildfireData_122024](https://github.com/navasmontilla/WildfireData_122024). 
+
 
 ### Congress participation
 
-- Oral presentation (online) at EGU2021: [Navas-Montilla, A., Juez, C., & Garijo, N. (2021, April). Energy estimation of resonant waves in channels with lateral cavities. In EGU General Assembly Conference Abstracts (pp. EGU21-12744).](https://ui.adsabs.harvard.edu/link_gateway/2021EGUGA..2312744N/doi:10.5194/egusphere-egu21-12744)
+- Nieding, L., Reisch, C., Langemann, D., & Navas-Montilla, A. (2024). "Impact of topography and combustion functions on fire front propagation in an advection-diffusion-reaction model for wildfires". Conference paper for 11th Vienna International Conference on Mathematical Modelling.
 
+- A. Navas-Montilla, Reisch, C., Diaz, P., & Özgen-Xian, I. "A physics-based wildfire propagation model incorporating wind, moisture and topography". NumAspYoung24 Conference, Ferrara, Italy. 18.12.2024.
 
+- C. Reisch, A. Navas Montilla, I. Özgen, "Analytical and numerical investigation of an advection-diffusion-reaction wildfire model", Invited talk in the Seminar of Applied Mathematics, University of L'Aquila, Italy, 06.11.2024
+
+- A. Navas-Montilla, Guallart, J., Solán-Fustero, P., Echeverribar, I., García-Navarro, P. “Evaluation of WENO and TENO schemes for the simulation of atmospheric flows” (oral). ECCOMAS2024, Lisboa, Portugal. 04.06.2024.
+
+- A. Navas Montilla, C. Reisch, P. Díaz, I. Özgen, “Towards a physics-based ADR wildfire propagation model for heterogeneous lands” (oral) Workshop Interdisciplinary Research in Ecological and Mathematical Analysis of Wildfire Hazards, Braunschweig, Germany, 16.11.2023
+
+- C. Reisch, A. Navas Montilla, I. Özgen, "Exploring an advection-diffusion-reaction wildfire model analytically and with simulations" (oral) Workshop Interdisciplinary Research in Ecological and Mathematical Analysis of Wildfire Hazards, Braunschweig, Germany, 16.11.2023
+
+- C. Reisch, "Spatially heterogeneous reaction-diffusion equations arising from applications" ÖMG Tagung 2023, invited talk in the minisymposium: PDEs and Mathematical Biology, Graz, Austria, 21.09.2023.
+
+- C. Reisch, "Spatial heterogeneity in reaction diffusion equations" (poster) Workshop: Modelling Diffusive Systems 2023: Theory & Biological Applications, ICMS, Edinburgh, Scotland, 11.09.2023.
