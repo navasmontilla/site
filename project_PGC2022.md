@@ -25,7 +25,7 @@ This is a proposal for a non-oriented research project in the area of mathematic
 
 
 <figure style="text-align: center;">
-  <img src="github_site/realistic_fire.png" width="60%" alt="my alt text"/>
+  <img src="github_site/realistic_fire.png" width="70%" alt="my alt text"/>
   <figcaption>Figure 1. Outcome of the surface propagation model, showing the propagation of the fire at different times.</figcaption>
 </figure>
 
