@@ -13,7 +13,7 @@ Participants:
 - Cordula Reisch (Institute for Partial Differential Equations, TU Braunschweig)
 
 <figure style="text-align: center;">
-  <img src="github_site/MICIU+Cofinanciado+AEI.png" width="50%" alt="my alt text"/>
+  <img src="github_site/logos_miciu.jpg" width="50%" alt="my alt text"/>
 </figure>
 
 
@@ -38,7 +38,7 @@ The main objective of this project is the **development of mathematical and comp
 
 
 <figure style="text-align: center;">
-  <img src="github_site/coupling.png" width="70%" alt="my alt text"/>
+  <img src="github_site/coupling.png" width="90%" alt="my alt text"/>
   <figcaption>Figure 2. Surface propagation model and atmospheric model, and their coupling.</figcaption>
 </figure>
 
