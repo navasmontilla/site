@@ -54,24 +54,16 @@ The main objective of this project is the **development of mathematical and comp
 ### Open source software and data
 
 - Navas-Montilla, A, CÆLUM: An academic High-Order Finite-Volume solver for the compressible Euler equations and related models. Github repository: [https://github.com/navasmontilla/CAELUM](https://github.com/navasmontilla/CAELUM). 
-
 - Research data: [https://github.com/navasmontilla/WildfireData_122024](https://github.com/navasmontilla/WildfireData_122024). 
 
 
 ### Congress participation
 
 - Nieding, L., Reisch, C., Langemann, D., & Navas-Montilla, A. (2024). "Impact of topography and combustion functions on fire front propagation in an advection-diffusion-reaction model for wildfires". Conference paper for 11th Vienna International Conference on Mathematical Modelling.
-
 - A. Navas-Montilla, Reisch, C., Diaz, P., & Özgen-Xian, I. "A physics-based wildfire propagation model incorporating wind, moisture and topography". NumAspYoung24 Conference, Ferrara, Italy. 18.12.2024.
-
 - C. Reisch, A. Navas Montilla, I. Özgen, "Analytical and numerical investigation of an advection-diffusion-reaction wildfire model", Invited talk in the Seminar of Applied Mathematics, University of L'Aquila, Italy, 06.11.2024
-
 - A. Navas-Montilla, Guallart, J., Solán-Fustero, P., Echeverribar, I., García-Navarro, P. “Evaluation of WENO and TENO schemes for the simulation of atmospheric flows” (oral). ECCOMAS2024, Lisboa, Portugal. 04.06.2024.
-
 - A. Navas Montilla, C. Reisch, P. Díaz, I. Özgen, “Towards a physics-based ADR wildfire propagation model for heterogeneous lands” (oral) Workshop Interdisciplinary Research in Ecological and Mathematical Analysis of Wildfire Hazards, Braunschweig, Germany, 16.11.2023
-
 - C. Reisch, A. Navas Montilla, I. Özgen, "Exploring an advection-diffusion-reaction wildfire model analytically and with simulations" (oral) Workshop Interdisciplinary Research in Ecological and Mathematical Analysis of Wildfire Hazards, Braunschweig, Germany, 16.11.2023
-
 - C. Reisch, "Spatially heterogeneous reaction-diffusion equations arising from applications" ÖMG Tagung 2023, invited talk in the minisymposium: PDEs and Mathematical Biology, Graz, Austria, 21.09.2023.
-
 - C. Reisch, "Spatial heterogeneity in reaction diffusion equations" (poster) Workshop: Modelling Diffusive Systems 2023: Theory & Biological Applications, ICMS, Edinburgh, Scotland, 11.09.2023.
