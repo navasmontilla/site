@@ -12,23 +12,36 @@ Participants:
 - Ilhan Özgen-Xian (Theoretical Ecohydrology Lab, TU Braunschweig)
 - Cordula Reisch (Institute for Partial Differential Equations, TU Braunschweig)
 
+<figure style="text-align: center;">
+  <img src="github_site/MICIU+Cofinanciado+AEI.png" width="50%" alt="my alt text"/>
+</figure>
+
+
+
 ## Abstract
 
-This is a proposal for a non-oriented research project in the area of mathematical modelling, simulation and dynamical analysis of environmental flows. Our goal is to develop mathematical and computational tools to analyze and simulate wildfire events, that improve the understanding of the non-linear dynamical processes involved both in the surface propagation and in the atmospheric dynamics of a wildfire. The scientific results of this research include novel mathematical, numerical and computational tools, e.g. the derivation of novel high-order numerical solvers, which can be of interest to a broad public working on computational fluid dynamics, earth-system modelling, applied mathematics and dynamical system analysis.
+This is a proposal for a non-oriented research project in the area of mathematical modelling, simulation and dynamical analysis of environmental flows. Our goal is to develop mathematical and computational tools to analyze and simulate wildfire events, that improve the understanding of the non-linear dynamical processes involved both in the **surface propagation** and in the **atmospheric dynamics** of a wildfire. The scientific results of this research include novel mathematical, numerical and computational tools, e.g. the derivation of novel high-order numerical solvers, which can be of interest to a broad public working on computational fluid dynamics, earth-system modelling, applied mathematics and dynamical system analysis.
 
 
 
 <figure style="text-align: center;">
   <img src="github_site/realistic_fire.png" width="60%" alt="my alt text"/>
-  <figcaption>Figure 1. Numerical simulation of a channel with lateral cavities with a 3-rd order WENO-ADER shallow water model.</figcaption>
+  <figcaption>Figure 1. Outcome of the surface propagation model, showing the propagation of the fire at different times.</figcaption>
 </figure>
 
 ## Objectives
 
-The main objective of this project is the development of mathematical and computational tools for the analysis and simulation of wildfire events that improve the understanding of the non-linear dynamical processes involved both in the surface propagation and in the atmospheric dynamics, throwing light to their interaction in a context of climate change. We will consider physically based mathematical models, based on systems partial differential equations, which describe the evolution in space and time of the concentration and temperature of biomass, as well as the air velocity, pressure, density and temperature. To achieve the main objective stated above, we have identified the following specific objectives:
-- Mathematical modelling of wildfires
-- Numerical simulation of wildfires
-- Dynamical analysis of wildfires and study of the interplay between the main drivers of the spread
+The main objective of this project is the **development of mathematical and computational tools for the analysis and simulation of wildfire events that improve the understanding of the non-linear dynamical processes involved both in the surface propagation and in the atmospheric dynamics, throwing light to their interaction in a context of climate change**. We will consider physically based mathematical models, based on systems partial differential equations, which describe the evolution in space and time of the concentration and temperature of biomass, as well as the air velocity, pressure, density and temperature. To achieve the main objective stated above, we have identified the following specific objectives:
+- **Mathematical modelling of wildfires**: We aim to formulate a simplified model that retains all the features required to reproduce the dynamical behavior of surface propagation and its interaction with the atmosphere in a two-way coupling manner. The surface propagation model will account for the advection, conduction, radiation and natural convection fluxes, as well as for the combustion processes in a simplified manner. The atmospheric model will be a non-hydrostatic model derived from the fundamental principles of conservation of mass, momentum, and energy in the mixture of air and combustion products. A coupling strategy will be proposed.
+- **Numerical simulation of wildfires**: We aim to design and implement a numerical scheme for the discretization of the models which is both accurate and robust in space and time. Non-oscillatory high order reconstruction methods will be considered for the discretization of the equations, and special attention will be paid to the integration in time of the source terms, which may become very stiff. The scheme will be implemented using High Performance Computing techniques that allow parallel simulation and will increase the computational efficiency.
+- **Dynamical analysis of wildfires and study of the interplay between the main drivers of the spread**: This objective focuses on the analysis of the model equations, as well as the relation between the problem variables, the modeled mechanisms, external conditions and parameters, to better understand the dynamics of the processes and the interplay between the main drivers of the fire spread. Such drivers interact in a  non-linear manner and may change the solution behavior qualitatively.
+
+
+<figure style="text-align: center;">
+  <img src="github_site/coupling.png" width="70%" alt="my alt text"/>
+  <figcaption>Figure 2. Surface propagation model and atmospheric model, and their coupling.</figcaption>
+</figure>
+
 
 
 ## Outcome
