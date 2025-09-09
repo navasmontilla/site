@@ -5,7 +5,7 @@
 
 ## Short bio
 
-I am Assistant professor in the Department of Science and Technology of Materials and Fluids at the Polytechnical School of Teruel (University of Zaraogoza). My on-going and future research focuses on the development of efficient simulation tools for environmental flows.   
+I am Associate professor in the Department of Science and Technology of Materials and Fluids at the Polytechnical School of Teruel (University of Zaraogoza). My on-going and future research focuses on the development of efficient simulation tools for environmental flows.   
 
 
 ## Teaching
